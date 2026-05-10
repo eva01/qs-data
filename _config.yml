@@ -1,0 +1,20 @@
+title: QS Data — Malaysian Construction Cost Data
+description: >
+  Versioned Malaysian construction cost data: materials prices, labour rates,
+  all-in rates, plant & equipment rates, and reference tables. Updated automatically
+  from quantitysurveyoronline.com.my. Currency: MYR.
+baseurl: "/qs-data"
+url: "https://eva01.github.io"
+theme: minima
+
+plugins:
+  - jekyll-sitemap
+
+minima:
+  skin: classic
+
+exclude:
+  - tools/
+  - raw/
+  - schemas/
+  - vocab/
