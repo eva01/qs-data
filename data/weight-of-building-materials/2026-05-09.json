@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0.0",
+  "$schema": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+  "category": "weight-of-building-materials",
+  "data_type": "reference_table",
+  "source": {
+    "image": "4195585_orig.jpg",
+    "url": "https://quantitysurveyoronline.com.my/weight-of-building-materials.html",
+    "ocr_engine": ""
+  },
+  "data_date": "static",
+  "extracted_at": "2026-05-09T23:52:33Z",
+  "columns": [
+    {
+      "name": "section",
+      "description": "Section code (A, B, C...)"
+    },
+    {
+      "name": "section_name",
+      "description": "Section name"
+    },
+    {
+      "name": "item_no",
+      "description": "Item number"
+    },
+    {
+      "name": "description",
+      "description": "Material description"
+    },
+    {
+      "name": "value",
+      "description": "Weight/density value with unit"
+    }
+  ],
+  "row_count": 18,
+  "quality_flags": [],
+  "rows": [
+    {
+      "row_id": "weight-of-building-materials:A:1",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "1",
+      "description": "Clay, hollow per 1\" thick",
+      "value": {
+        "type": "fixed",
+        "value": 25.9,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:A:2",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "2",
+      "description": "Concrete, per 1\" thick",
+      "value": {
+        "type": "fixed",
+        "value": 34.7,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:A:3",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "3",
+      "description": "Concrete, solid per 1\" thick",
+      "value": {
+        "type": "fixed",
+        "value": 54.7,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:A:4",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "4",
+      "description": "Lightweight Concrete",
+      "value": {}
+    },
+    {
+      "row_id": "weight-of-building-materials:A:4",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "4",
+      "description": "Hollow per 1 thick",
+      "value": {
+        "type": "fixed",
+        "value": 25.9,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:A:4",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "4",
+      "description": "Solid per 1 thick",
+      "value": {
+        "type": "fixed",
+        "value": 32.2,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:A:5",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "5",
+      "description": "Breeze Block",
+      "value": {}
+    },
+    {
+      "row_id": "weight-of-building-materials:A:5",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "5",
+      "description": "3\" thick",
+      "value": {
+        "type": "fixed",
+        "value": 43.9,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:A:5",
+      "section": "A",
+      "section_name": "BLOCKWORK, WALLING",
+      "item_no": "5",
+      "description": "4\" thick",
+      "value": {
+        "type": "fixed",
+        "value": 53.2,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:B:1",
+      "section": "B",
+      "section_name": "BRICKWORK",
+      "item_no": "1",
+      "description": "Common brick",
+      "value": {
+        "type": "fixed",
+        "value": 2002.0,
+        "unit": "kg/m³"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:B:2",
+      "section": "B",
+      "section_name": "BRICKWORK",
+      "item_no": "2",
+      "description": "Glazed",
+      "value": {
+        "type": "fixed",
+        "value": 2082.0,
+        "unit": "kg/m³"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:B:3",
+      "section": "B",
+      "section_name": "BRICKWORK",
+      "item_no": "3",
+      "description": "Heavy Pressed Brick",
+      "value": {
+        "type": "fixed",
+        "value": 2243.0,
+        "unit": "kg/m³"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:B:4",
+      "section": "B",
+      "section_name": "BRICKWORK",
+      "item_no": "4",
+      "description": "Engineering, Dense",
+      "value": {
+        "type": "fixed",
+        "value": 2403.0,
+        "unit": "kg/m³"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:C:1",
+      "section": "C",
+      "section_name": "GLASS",
+      "item_no": "1",
+      "description": "Per 1/4\" of thickness",
+      "value": {
+        "type": "fixed",
+        "value": 17.1,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:D:1",
+      "section": "D",
+      "section_name": "GLASS FIBER",
+      "item_no": "1",
+      "description": "Thermal Insulation 1\" thickness",
+      "value": {
+        "type": "fixed",
+        "value": 0.5,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:E:1",
+      "section": "E",
+      "section_name": "GLAZING, PATENT",
+      "item_no": "1",
+      "description": "1/4 \" Glass including lead covered",
+      "value": {}
+    },
+    {
+      "row_id": "weight-of-building-materials:E:2",
+      "section": "E",
+      "section_name": "GLAZING, PATENT",
+      "item_no": "2",
+      "description": "Steel bars at 24\" centres",
+      "value": {
+        "type": "fixed",
+        "value": 29.3,
+        "unit": "kg/m²"
+      }
+    },
+    {
+      "row_id": "weight-of-building-materials:E:3",
+      "section": "E",
+      "section_name": "GLAZING, PATENT",
+      "item_no": "3",
+      "description": "Aluminium Alloy bars at 24\" centres",
+      "value": {
+        "type": "fixed",
+        "value": 19.5,
+        "unit": "kg/m²"
+      }
+    }
+  ]
+}

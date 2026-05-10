@@ -1,0 +1,1182 @@
+{
+  "schema_version": "1.0.0",
+  "$schema": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+  "category": "plant-equipment-rates",
+  "data_type": "price_table",
+  "source": {
+    "image": "plant-19-11-2025.png",
+    "url": "https://quantitysurveyoronline.com.my/plant-equipment-rates.html"
+  },
+  "data_date": "2025-11-19",
+  "extracted_at": "2026-05-09T23:51:09Z",
+  "extraction": {},
+  "currency": "MYR",
+  "unit_system": "metric",
+  "row_count": 63,
+  "quality_flags": [
+    "dual-unit with single price at plant-equipment-rates:B:8"
+  ],
+  "rows": [
+    {
+      "row_id": "plant-equipment-rates:A:1",
+      "section": "A",
+      "section_name": "GENERATOR",
+      "item_no": "1",
+      "description": "20 KVA generator set",
+      "price": {
+        "type": "fixed",
+        "value": 700.0,
+        "currency": "MYR",
+        "raw": "RM700.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:A:2",
+      "section": "A",
+      "section_name": "GENERATOR",
+      "item_no": "2",
+      "description": "50 KVA generator set",
+      "price": {
+        "type": "fixed",
+        "value": 1300.0,
+        "currency": "MYR",
+        "raw": "RM1,300.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:A:3",
+      "section": "A",
+      "section_name": "GENERATOR",
+      "item_no": "3",
+      "description": "60 KVA generator set",
+      "price": {
+        "type": "fixed",
+        "value": 1500.0,
+        "currency": "MYR",
+        "raw": "RM1,500.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:A:4",
+      "section": "A",
+      "section_name": "GENERATOR",
+      "item_no": "4",
+      "description": "Bar cutter machine",
+      "price": {
+        "type": "fixed",
+        "value": 450.0,
+        "currency": "MYR",
+        "raw": "RM450.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:A:5",
+      "section": "A",
+      "section_name": "GENERATOR",
+      "item_no": "5",
+      "description": "Bar bending machine",
+      "price": {
+        "type": "fixed",
+        "value": 450.0,
+        "currency": "MYR",
+        "raw": "RM450.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:A:6",
+      "section": "A",
+      "section_name": "GENERATOR",
+      "item_no": "6",
+      "description": "Road roller compactor, 1 tonne",
+      "price": {
+        "type": "fixed",
+        "value": 900.0,
+        "currency": "MYR",
+        "raw": "RM900.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:A:7",
+      "section": "A",
+      "section_name": "GENERATOR",
+      "item_no": "7",
+      "description": "25 tonne vibrate roller",
+      "price": {
+        "type": "fixed",
+        "value": 550.0,
+        "currency": "RM",
+        "raw": "RM550.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours) / Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 8300.0,
+            "currency": "RM",
+            "raw": "RM8,300.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:A:8",
+      "section": "A",
+      "section_name": "GENERATOR",
+      "item_no": "8",
+      "description": "Welding set (diesel) 500 amp",
+      "price": {
+        "type": "fixed",
+        "value": 900.0,
+        "currency": "MYR",
+        "raw": "RM900.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:B:1",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "1",
+      "description": "Lorry with driver; 6 wheels (incl. diesel)",
+      "price": {
+        "type": "fixed",
+        "value": 400.0,
+        "currency": "MYR",
+        "raw": "RM400.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)"
+    },
+    {
+      "row_id": "plant-equipment-rates:B:2",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "2",
+      "description": "Lorry with driver, 6 wheels long body (incl. diesel)",
+      "price": {
+        "type": "fixed",
+        "value": 500.0,
+        "currency": "MYR",
+        "raw": "RM500.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)"
+    },
+    {
+      "row_id": "plant-equipment-rates:B:3",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "3",
+      "description": "Lorry with driver, 10 wheels (incl. diesel)",
+      "price": {
+        "type": "fixed",
+        "value": 600.0,
+        "currency": "MYR",
+        "raw": "RM600.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)"
+    },
+    {
+      "row_id": "plant-equipment-rates:B:4",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "4",
+      "description": "Lorry crane, 8 tonne 6 wheels; with driver (incl. diesel)",
+      "price": {
+        "type": "fixed",
+        "value": 550.0,
+        "currency": "MYR",
+        "raw": "RM550.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)"
+    },
+    {
+      "row_id": "plant-equipment-rates:B:5",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "5",
+      "description": "Lorry crane, 15 tonne 10 wheels, with driver (incl. diesel)",
+      "price": {
+        "type": "fixed",
+        "value": 1100.0,
+        "currency": "MYR",
+        "raw": "RM1,100.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)"
+    },
+    {
+      "row_id": "plant-equipment-rates:B:6",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "6",
+      "description": "Lorry crane, 8 tonne 6 wheels, without driver (incl. diesel)",
+      "price": {
+        "type": "fixed",
+        "value": 420.0,
+        "currency": "MYR",
+        "raw": "RM420.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)"
+    },
+    {
+      "row_id": "plant-equipment-rates:B:7",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "7",
+      "description": "Backhoe with operator (incl. diesel for Day only)",
+      "price": {
+        "type": "fixed",
+        "value": 400.0,
+        "currency": "RM",
+        "raw": "RM400.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 8000.0,
+            "currency": "RM",
+            "raw": "RM8,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:B:8",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "8",
+      "description": "Backhoe c/w breaker with operator (incl. diesel for Day only)",
+      "price": {
+        "type": "fixed",
+        "value": 550.0,
+        "currency": "MYR",
+        "raw": "RM550.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:B:9",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "9",
+      "description": "Excavator (incl. diesel for Day only)",
+      "price": {
+        "type": "fixed",
+        "value": 1000.0,
+        "currency": "RM",
+        "raw": "RM1,000.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 9500.0,
+            "currency": "RM",
+            "raw": "RM9,500.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:B:10",
+      "section": "B",
+      "section_name": "LORRY",
+      "item_no": "10",
+      "description": "40' cargo trailer (max 20 ton)",
+      "price": {
+        "type": "fixed",
+        "value": 1200.0,
+        "currency": "MYR",
+        "raw": "RM1,200.00"
+      },
+      "unit": "trip",
+      "unit_raw": "Trip"
+    },
+    {
+      "row_id": "plant-equipment-rates:C:1",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "1",
+      "description": "Mobile crane, 16 tonne (incl. diesel for Day only)",
+      "price": {
+        "type": "fixed",
+        "value": 600.0,
+        "currency": "RM",
+        "raw": "RM600.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 11500.0,
+            "currency": "RM",
+            "raw": "RM11,500.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:2",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "2",
+      "description": "Mobile crane, 20 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 750.0,
+        "currency": "RM",
+        "raw": "RM750.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 13500.0,
+            "currency": "RM",
+            "raw": "RM13,500.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:3",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "3",
+      "description": "Mobile crane, 25 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 1100.0,
+        "currency": "RM",
+        "raw": "RM1100.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 18000.0,
+            "currency": "RM",
+            "raw": "RM18,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:4",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "4",
+      "description": "Mobile crane, 35 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 1300.0,
+        "currency": "RM",
+        "raw": "RM1,300.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 24000.0,
+            "currency": "RM",
+            "raw": "RM24,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:5",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "5",
+      "description": "Mobile crane, 45 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 1600.0,
+        "currency": "RM",
+        "raw": "RM1,600.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 26000.0,
+            "currency": "RM",
+            "raw": "RM26,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:6",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "6",
+      "description": "Mobile crane, 55 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 2400.0,
+        "currency": "RM",
+        "raw": "RM2,400.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 32000.0,
+            "currency": "RM",
+            "raw": "RM32,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:7",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "7",
+      "description": "Mobile crane, 60 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 2500.0,
+        "currency": "RM",
+        "raw": "RM2,500.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 36000.0,
+            "currency": "RM",
+            "raw": "RM36,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:8",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "8",
+      "description": "Mobile crane, 80 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 3000.0,
+        "currency": "RM",
+        "raw": "RM3,000.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 42000.0,
+            "currency": "RM",
+            "raw": "RM42,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:9",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "9",
+      "description": "Mobile crane, 85 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 3200.0,
+        "currency": "RM",
+        "raw": "RM3,200.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 45000.0,
+            "currency": "RM",
+            "raw": "RM45,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:10",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "10",
+      "description": "Mobile crane, 120 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 4500.0,
+        "currency": "RM",
+        "raw": "RM4,500.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 55000.0,
+            "currency": "RM",
+            "raw": "RM55,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:11",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "11",
+      "description": "Mobile crane, 110 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 4000.0,
+        "currency": "RM",
+        "raw": "RM4,000.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 50000.0,
+            "currency": "RM",
+            "raw": "RM50,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:12",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "12",
+      "description": "Mobile crane, 160 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 7500.0,
+        "currency": "RM",
+        "raw": "RM7,500.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 80000.0,
+            "currency": "RM",
+            "raw": "RM80,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:13",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "13",
+      "description": "Mobile crane, 200 tonne (ditto)",
+      "price": {
+        "type": "fixed",
+        "value": 7500.0,
+        "currency": "RM",
+        "raw": "RM7,500.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 100000.0,
+            "currency": "RM",
+            "raw": "RM100,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:14",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "14",
+      "description": "Tower crane with operator",
+      "price": {
+        "type": "fixed",
+        "value": 25000.0,
+        "currency": "MYR",
+        "raw": "RM25,000.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:C:15",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "15",
+      "description": "Tower crane's operator",
+      "price": {
+        "type": "fixed",
+        "value": 6500.0,
+        "currency": "MYR",
+        "raw": "RM6,500.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:C:16",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "16",
+      "description": "Skylift 25 meter with operator",
+      "price": {
+        "type": "fixed",
+        "value": 700.0,
+        "currency": "MYR",
+        "raw": "RM700.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)"
+    },
+    {
+      "row_id": "plant-equipment-rates:C:17",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "17",
+      "description": "Skylift 26 meter with operator",
+      "price": {
+        "type": "fixed",
+        "value": 500.0,
+        "currency": "RM",
+        "raw": "RM500.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 10500.0,
+            "currency": "RM",
+            "raw": "RM10,500.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:18",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "18",
+      "description": "Skylift 54 meter with operator",
+      "price": {
+        "type": "fixed",
+        "value": 2200.0,
+        "currency": "RM",
+        "raw": "RM2,200.00"
+      },
+      "unit": "day (8h)",
+      "unit_raw": "Day (8 hours)/ Month",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 38000.0,
+            "currency": "RM",
+            "raw": "RM38,000.00"
+          },
+          "unit": "month",
+          "unit_raw": "Month"
+        }
+      ]
+    },
+    {
+      "row_id": "plant-equipment-rates:C:19",
+      "section": "C",
+      "section_name": "CRANE",
+      "item_no": "19",
+      "description": "Gondola counterweight system (4 meter)",
+      "price": {
+        "type": "fixed",
+        "value": 1700.0,
+        "currency": "MYR",
+        "raw": "RM1,700.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:D:1",
+      "section": "D",
+      "section_name": "PUMP",
+      "item_no": "1",
+      "description": "Concrete pump truck 36m boom",
+      "price": {
+        "type": "fixed",
+        "value": 17.0,
+        "currency": "MYR",
+        "raw": "RM17.00"
+      },
+      "unit": "M3 (For normal hours) (For OT, RM400 surcharge +RM50 per hour)",
+      "unit_raw": "M3 (For normal hours) (For OT, RM400 surcharge +RM50 per hour)"
+    },
+    {
+      "row_id": "plant-equipment-rates:D:2",
+      "section": "D",
+      "section_name": "PUMP",
+      "item_no": "2",
+      "description": "Mortar pump c/w electric motor",
+      "price": {
+        "type": "fixed",
+        "value": 2150.0,
+        "currency": "MYR",
+        "raw": "RM2,150.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:D:3",
+      "section": "D",
+      "section_name": "PUMP",
+      "item_no": "3",
+      "description": "Screed pump c/w electric Motor; capacity 270 liter",
+      "price": {
+        "type": "fixed",
+        "value": 3009.93,
+        "currency": "MYR",
+        "raw": "RM3,009.93"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:D:4",
+      "section": "D",
+      "section_name": "PUMP",
+      "item_no": "4",
+      "description": "Screed pump c/w electric Motor; capacity 500 liter",
+      "price": {
+        "type": "fixed",
+        "value": 2600.0,
+        "currency": "MYR",
+        "raw": "RM2,600.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:D:5",
+      "section": "D",
+      "section_name": "PUMP",
+      "item_no": "5",
+      "description": "Air compressor c/w diesel engine; capacity 390 CFM",
+      "price": {
+        "type": "fixed",
+        "value": 2000.0,
+        "currency": "MYR",
+        "raw": "RM2,000.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:D:6",
+      "section": "D",
+      "section_name": "PUMP",
+      "item_no": "6",
+      "description": "Air compressor c/w diesel engine; capacity 265 CFM",
+      "price": {
+        "type": "fixed",
+        "value": 2000.0,
+        "currency": "MYR",
+        "raw": "RM2,000.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:D:7",
+      "section": "D",
+      "section_name": "PUMP",
+      "item_no": "7",
+      "description": "Concrete mixer 300/200 litres",
+      "price": {
+        "type": "fixed",
+        "value": 420.0,
+        "currency": "MYR",
+        "raw": "RM420.00"
+      },
+      "unit": "month",
+      "unit_raw": "Month"
+    },
+    {
+      "row_id": "plant-equipment-rates:D:8",
+      "section": "D",
+      "section_name": "PUMP",
+      "item_no": "8",
+      "description": "Vibrator 38mm",
+      "price": {
+        "type": "fixed",
+        "value": 300.0,
+        "currency": "MYR",
+        "raw": "RM300.00"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:1",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "1",
+      "description": "Scaffold - Main frame 1219 x 1700 mm (new)",
+      "price": {
+        "type": "fixed",
+        "value": 33.0,
+        "currency": "MYR",
+        "raw": "RM33.00"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:2",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "2",
+      "description": "Scaffold - Main frame 1219 x 1700 mm (2nd Hand)",
+      "price": {
+        "type": "fixed",
+        "value": 2.1,
+        "currency": "MYR",
+        "raw": "RM2.10"
+      },
+      "unit": "No (Rental)",
+      "unit_raw": "No (Rental)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:3",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "3",
+      "description": "Scaffold - Main frame 1219 x 914 mm (new)",
+      "price": {
+        "type": "fixed",
+        "value": 31.0,
+        "currency": "MYR",
+        "raw": "RM31.00"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:4",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "4",
+      "description": "Scaffold - G.I cross brace 1219 x 1829 mm (New)",
+      "price": {
+        "type": "fixed",
+        "value": 14.5,
+        "currency": "MYR",
+        "raw": "RM14.50"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:5",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "5",
+      "description": "Scaffold - G.I cross brace 1219 x 1829 mm (2nd Hand)",
+      "price": {
+        "type": "fixed",
+        "value": 0.8,
+        "currency": "MYR",
+        "raw": "RM0.80"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:6",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "6",
+      "description": "Scaffold - Joint pin 215mm (New)",
+      "price": {
+        "type": "fixed",
+        "value": 2.2,
+        "currency": "MYR",
+        "raw": "RM2.20"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:7",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "7",
+      "description": "Scaffold - Joint pin 215mm ( 2nd Hand)",
+      "price": {
+        "type": "fixed",
+        "value": 0.2,
+        "currency": "MYR",
+        "raw": "RM0.20"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:8",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "8",
+      "description": "Scaffold - U head 600mm (New)",
+      "price": {
+        "type": "fixed",
+        "value": 14.2,
+        "currency": "MYR",
+        "raw": "RM14.20"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:9",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "9",
+      "description": "Scaffold - U head 600mm (2nd Hand)",
+      "price": {
+        "type": "fixed",
+        "value": 14.0,
+        "currency": "MYR",
+        "raw": "RM14.00"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:10",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "10",
+      "description": "Scaffold - U head 600 mm (2nd hand)",
+      "price": {
+        "type": "fixed",
+        "value": 0.8,
+        "currency": "MYR",
+        "raw": "RM0.80"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:11",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "11",
+      "description": "Scaffold - Jack base 600mm (New)",
+      "price": {
+        "type": "fixed",
+        "value": 13.2,
+        "currency": "MYR",
+        "raw": "RM13.20"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:12",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "12",
+      "description": "Scaffold - Jack base 600mm (2nd Hand)",
+      "price": {
+        "type": "fixed",
+        "value": 13.0,
+        "currency": "MYR",
+        "raw": "RM13.00"
+      },
+      "unit": "No (Purchase)",
+      "unit_raw": "No (Purchase)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:13",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "13",
+      "description": "Scaffold - Jack base 600mm (2nd Hand)",
+      "price": {
+        "type": "fixed",
+        "value": 0.8,
+        "currency": "MYR",
+        "raw": "RM0.80"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:14",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "14",
+      "description": "Scaffold - Swivel clamp 48.6mm (2nd Hand)",
+      "price": {
+        "type": "fixed",
+        "value": 0.5,
+        "currency": "MYR",
+        "raw": "RM0.50"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:15",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "15",
+      "description": "Scaffold - Fixed clamp 48.6mm (2nd Hand)",
+      "price": {
+        "type": "fixed",
+        "value": 0.5,
+        "currency": "MYR",
+        "raw": "RM0.50"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:16",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "16",
+      "description": "Scaffold - GI pipe 48.6mm 2.00mm x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 6.0,
+        "currency": "MYR",
+        "raw": "RM6.00"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:17",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "17",
+      "description": "Scaffold - GI pipe 48.6mm 2.00mm x 3m",
+      "price": {
+        "type": "fixed",
+        "value": 3.0,
+        "currency": "MYR",
+        "raw": "RM3.00"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    },
+    {
+      "row_id": "plant-equipment-rates:E:18",
+      "section": "E",
+      "section_name": "SCAFFOLDING",
+      "item_no": "18",
+      "description": "Wall tie 1200 mm",
+      "price": {
+        "type": "fixed",
+        "value": 1.4,
+        "currency": "MYR",
+        "raw": "RM1.40"
+      },
+      "unit": "No (Rental per month)",
+      "unit_raw": "No (Rental per month)"
+    }
+  ]
+}

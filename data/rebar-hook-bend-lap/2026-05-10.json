@@ -1,0 +1,617 @@
+{
+  "schema_version": "1.0.0",
+  "$schema": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+  "category": "rebar-hook-bend-lap",
+  "data_type": "reference_table",
+  "source": {
+    "image": "2487722_orig.jpg",
+    "url": "https://quantitysurveyoronline.com.my/rebar-hook-bend-lap.html",
+    "ocr_engine": "gemini"
+  },
+  "data_date": "static",
+  "extracted_at": "2026-05-10T00:08:35Z",
+  "columns": [
+    {
+      "name": "steel_type",
+      "description": "mild_steel or high_yield"
+    },
+    {
+      "name": "bar_size_mm",
+      "unit": "mm",
+      "description": "Bar diameter"
+    },
+    {
+      "name": "measurement",
+      "description": "hook_allowance_mm, bend_allowance_mm, rebar_lapping_mm, tying_allowance_mm"
+    },
+    {
+      "name": "formula_multiplier",
+      "description": "Multiplier applied to D (e.g. 9 for hook allowance 9D)"
+    },
+    {
+      "name": "value_mm",
+      "unit": "mm",
+      "description": "Calculated minimum value in mm"
+    }
+  ],
+  "row_count": 72,
+  "quality_flags": [],
+  "rows": [
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:6",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 6,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:8",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 8,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:10",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 10,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:12",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 12,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 110
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:16",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 16,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 150
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:20",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 20,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 180
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:25",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 25,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 230
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:32",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 32,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 290
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:hook_allowance_mm:40",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 40,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 9.0,
+      "value_mm": 360
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:6",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 6,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:8",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 8,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:10",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 10,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:12",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 12,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:16",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 16,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:20",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 20,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:25",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 25,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 130
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:32",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 32,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 160
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:bend_allowance_mm:40",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 40,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.0,
+      "value_mm": 200
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:6",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 6,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 240
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:8",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 8,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 320
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:10",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 10,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 400
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:12",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 12,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 480
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:16",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 16,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 640
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:20",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 20,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 800
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:25",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 25,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 1000
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:32",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 32,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 1280
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:rebar_lapping_mm:40",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 40,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 1600
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:6",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 6,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 144
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:8",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 8,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 192
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:10",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 10,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 240
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:12",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 12,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 288
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:16",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 16,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 384
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:20",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 20,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 480
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:25",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 25,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 600
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:32",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 32,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 768
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:mild_steel:tying_allowance_mm:40",
+      "steel_type": "mild_steel",
+      "bar_size_mm": 40,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 960
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:6",
+      "steel_type": "high_yield",
+      "bar_size_mm": 6,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:8",
+      "steel_type": "high_yield",
+      "bar_size_mm": 8,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:10",
+      "steel_type": "high_yield",
+      "bar_size_mm": 10,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:12",
+      "steel_type": "high_yield",
+      "bar_size_mm": 12,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 140
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:16",
+      "steel_type": "high_yield",
+      "bar_size_mm": 16,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 180
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:20",
+      "steel_type": "high_yield",
+      "bar_size_mm": 20,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 220
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:25",
+      "steel_type": "high_yield",
+      "bar_size_mm": 25,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 280
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:32",
+      "steel_type": "high_yield",
+      "bar_size_mm": 32,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 360
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:hook_allowance_mm:40",
+      "steel_type": "high_yield",
+      "bar_size_mm": 40,
+      "measurement": "hook_allowance_mm",
+      "formula_multiplier": 11.0,
+      "value_mm": 440
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:6",
+      "steel_type": "high_yield",
+      "bar_size_mm": 6,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:8",
+      "steel_type": "high_yield",
+      "bar_size_mm": 8,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:10",
+      "steel_type": "high_yield",
+      "bar_size_mm": 10,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:12",
+      "steel_type": "high_yield",
+      "bar_size_mm": 12,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:16",
+      "steel_type": "high_yield",
+      "bar_size_mm": 16,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 100
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:20",
+      "steel_type": "high_yield",
+      "bar_size_mm": 20,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 110
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:25",
+      "steel_type": "high_yield",
+      "bar_size_mm": 25,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 140
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:32",
+      "steel_type": "high_yield",
+      "bar_size_mm": 32,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 180
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:bend_allowance_mm:40",
+      "steel_type": "high_yield",
+      "bar_size_mm": 40,
+      "measurement": "bend_allowance_mm",
+      "formula_multiplier": 5.5,
+      "value_mm": 220
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:6",
+      "steel_type": "high_yield",
+      "bar_size_mm": 6,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 240
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:8",
+      "steel_type": "high_yield",
+      "bar_size_mm": 8,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 320
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:10",
+      "steel_type": "high_yield",
+      "bar_size_mm": 10,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 400
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:12",
+      "steel_type": "high_yield",
+      "bar_size_mm": 12,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 480
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:16",
+      "steel_type": "high_yield",
+      "bar_size_mm": 16,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 640
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:20",
+      "steel_type": "high_yield",
+      "bar_size_mm": 20,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 800
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:25",
+      "steel_type": "high_yield",
+      "bar_size_mm": 25,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 1000
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:32",
+      "steel_type": "high_yield",
+      "bar_size_mm": 32,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 1280
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:rebar_lapping_mm:40",
+      "steel_type": "high_yield",
+      "bar_size_mm": 40,
+      "measurement": "rebar_lapping_mm",
+      "formula_multiplier": 40.0,
+      "value_mm": 1600
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:6",
+      "steel_type": "high_yield",
+      "bar_size_mm": 6,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 144
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:8",
+      "steel_type": "high_yield",
+      "bar_size_mm": 8,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 192
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:10",
+      "steel_type": "high_yield",
+      "bar_size_mm": 10,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 240
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:12",
+      "steel_type": "high_yield",
+      "bar_size_mm": 12,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 288
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:16",
+      "steel_type": "high_yield",
+      "bar_size_mm": 16,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 384
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:20",
+      "steel_type": "high_yield",
+      "bar_size_mm": 20,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 480
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:25",
+      "steel_type": "high_yield",
+      "bar_size_mm": 25,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 600
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:32",
+      "steel_type": "high_yield",
+      "bar_size_mm": 32,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 768
+    },
+    {
+      "row_id": "rebar-hook-bend-lap:high_yield:tying_allowance_mm:40",
+      "steel_type": "high_yield",
+      "bar_size_mm": 40,
+      "measurement": "tying_allowance_mm",
+      "formula_multiplier": 24.0,
+      "value_mm": 960
+    }
+  ]
+}

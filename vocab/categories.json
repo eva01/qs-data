@@ -1,0 +1,134 @@
+[
+  {
+    "slug": "all-in-rates-architecture",
+    "display_name": "All-In Rates (Architecture)",
+    "data_type": "price_table",
+    "summary": "All-in unit rates for architectural works in Malaysia including brickwall, blockwall, painting, floor finishes, floor screed, ceiling finishes, wall finishes, metal & steel work, roofing, and waterproofing. Rates include supply and labour.",
+    "tags": ["architecture", "brickwall", "blockwall", "painting", "floor finishes", "ceiling", "wall finishes", "roofing", "waterproofing", "steel work"],
+    "source_url": "https://quantitysurveyoronline.com.my/all-in-rates-architecture.html",
+    "update_cadence": "monthly",
+    "currency": "MYR",
+    "unit_system": "metric"
+  },
+  {
+    "slug": "all-in-rates-structure",
+    "display_name": "All-In Rates (Structure)",
+    "data_type": "price_table",
+    "summary": "All-in unit rates for structural works in Malaysia including piling, excavation, bedding, reinforced concrete, formwork, reinforcement bar, and BRC mesh. Rates include supply and labour.",
+    "tags": ["structure", "piling", "excavation", "concrete", "formwork", "rebar", "BRC", "RC pile"],
+    "source_url": "https://quantitysurveyoronline.com.my/all-in-rates-structure.html",
+    "update_cadence": "monthly",
+    "currency": "MYR",
+    "unit_system": "metric"
+  },
+  {
+    "slug": "building-element-steel-content",
+    "display_name": "Building Element Steel Content",
+    "data_type": "reference_table",
+    "summary": "Reference table for approximate steel reinforcement content (kg/m³) by building element type, from general structures to specific elements like slabs, flat slabs, warehouses, water towers, and bridges.",
+    "tags": ["steel content", "rebar", "reinforcement", "kg/m3", "building element", "reference"],
+    "source_url": "https://quantitysurveyoronline.com.my/building-element-steel-content.html",
+    "update_cadence": "static",
+    "currency": null,
+    "unit_system": "metric"
+  },
+  {
+    "slug": "conversion-table",
+    "display_name": "Conversion Table",
+    "data_type": "reference_table",
+    "summary": "Unit conversion factors for area measurements used in construction quantity surveying, covering square inches, feet, yards, metres, kilometres, hectares, and acres.",
+    "tags": ["conversion", "units", "area", "measurement", "reference"],
+    "source_url": "https://quantitysurveyoronline.com.my/conversion-table.html",
+    "update_cadence": "static",
+    "currency": null,
+    "unit_system": "mixed"
+  },
+  {
+    "slug": "labour-rates",
+    "display_name": "Labour Rates",
+    "data_type": "price_table",
+    "summary": "Labour-only rates for construction trades in Malaysia including general/semi-skilled/skilled labour, structural work, floor finishes, wall finishes, door installation, and sanitary fittings. Rates are per unit of work output.",
+    "tags": ["labour", "formwork", "rebar", "concrete", "tiles", "plastering", "door", "sanitary"],
+    "source_url": "https://quantitysurveyoronline.com.my/labour-rates.html",
+    "update_cadence": "monthly",
+    "currency": "MYR",
+    "unit_system": "metric"
+  },
+  {
+    "slug": "materials-prices",
+    "display_name": "Materials Prices",
+    "data_type": "price_table",
+    "summary": "Supply prices for construction materials in Malaysia including rebar, concrete, plaster, timber, plywood, BRC mesh, granular materials, bricks, blocks, tiles, marble, paint, pipes, metal sections, doors, ceiling boards, roofing, premix, drains, RC piles, and miscellaneous items.",
+    "tags": ["materials", "rebar", "concrete", "timber", "plywood", "BRC", "brick", "tile", "paint", "pipe", "roofing", "premix", "drain", "RC pile"],
+    "source_url": "https://quantitysurveyoronline.com.my/materials-prices.html",
+    "update_cadence": "monthly",
+    "currency": "MYR",
+    "unit_system": "metric"
+  },
+  {
+    "slug": "plant-equipment-rates",
+    "display_name": "Plant & Equipment Rates",
+    "data_type": "price_table",
+    "summary": "Hire rates for plant and equipment in Malaysia including generators, lorries, cranes, pumps, and scaffolding. Many items have both daily (8h) and monthly rates.",
+    "tags": ["plant", "equipment", "generator", "lorry", "crane", "pump", "scaffolding", "backhoe", "excavator"],
+    "source_url": "https://quantitysurveyoronline.com.my/plant-equipment-rates.html",
+    "update_cadence": "monthly",
+    "currency": "MYR",
+    "unit_system": "metric"
+  },
+  {
+    "slug": "preliminaries-rates",
+    "display_name": "Preliminaries Rates",
+    "data_type": "price_table",
+    "summary": "Rates for construction preliminaries in Malaysia including temporary site offices, site security, light and power, water, signboards, hoarding, safety precautions, fire protection, site management personnel, insurance, and statutory levies.",
+    "tags": ["preliminaries", "site office", "security", "power", "water", "hoarding", "safety", "insurance", "CIDB levy", "site management"],
+    "source_url": "https://quantitysurveyoronline.com.my/preliminaries-rates.html",
+    "update_cadence": "monthly",
+    "currency": "MYR",
+    "unit_system": "metric"
+  },
+  {
+    "slug": "rebar-hook-bend-lap",
+    "display_name": "Rebar Hook, Bend & Lap",
+    "data_type": "reference_table",
+    "summary": "Reference table for rebar hook allowance, bend allowance, lapping, and tying allowances in mm for mild steel bars (BS 4449) and high yield bars (BS 4449/4461), covering bar sizes 6mm to 40mm diameter.",
+    "tags": ["rebar", "hook allowance", "bend allowance", "lapping", "tying", "BS 4449", "BS 4461", "reference"],
+    "source_url": "https://quantitysurveyoronline.com.my/rebar-hook-bend-lap.html",
+    "update_cadence": "static",
+    "currency": null,
+    "unit_system": "metric"
+  },
+  {
+    "slug": "rebar-kg-per-m",
+    "display_name": "Rebar kg/m",
+    "data_type": "reference_table",
+    "summary": "Reference table for steel reinforcement bar properties: diameter (mm), cross-sectional area (mm²), mass per metre (kg/m), and mass per 12-metre length (kg/12m), for sizes 6mm to 38mm diameter.",
+    "tags": ["rebar", "weight", "mass per metre", "cross sectional area", "diameter", "reference"],
+    "source_url": "https://quantitysurveyoronline.com.my/rebar-kg-per-m.html",
+    "update_cadence": "static",
+    "currency": null,
+    "unit_system": "metric"
+  },
+  {
+    "slug": "timber-strength-group",
+    "display_name": "Timber Strength Group",
+    "data_type": "strength_group_list",
+    "summary": "Malaysian timber species classified into strength groups A through D per the Malaysian Grading Rules, as used in structural timber design. Group A is the strongest (e.g. Balau, Chengal) down to Group D (e.g. Jelutong, Pulai).",
+    "tags": ["timber", "strength group", "species", "Malaysian timber", "structural timber", "reference"],
+    "source_url": "https://quantitysurveyoronline.com.my/timber-strength-group.html",
+    "update_cadence": "static",
+    "currency": null,
+    "unit_system": null
+  },
+  {
+    "slug": "weight-of-building-materials",
+    "display_name": "Weight of Building Materials",
+    "data_type": "reference_table",
+    "summary": "Reference table for weight/density of common building materials in Malaysian construction, including blockwork, brickwork, glass, glass fibre, and patent glazing, in kg/m² or kg/m³.",
+    "tags": ["weight", "density", "building materials", "blockwork", "brickwork", "glass", "reference"],
+    "source_url": "https://quantitysurveyoronline.com.my/weight-of-building-materials.html",
+    "update_cadence": "static",
+    "currency": null,
+    "unit_system": "metric"
+  }
+]

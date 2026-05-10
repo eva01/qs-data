@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0.0",
+  "$schema": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+  "category": "building-element-steel-content",
+  "data_type": "reference_table",
+  "source": {
+    "image": "18122_orig.png",
+    "url": "https://quantitysurveyoronline.com.my/building-element-steel-content.html",
+    "ocr_engine": ""
+  },
+  "data_date": "static",
+  "extracted_at": "2026-05-09T23:52:48Z",
+  "columns": [
+    {
+      "name": "item_no",
+      "description": "Row number"
+    },
+    {
+      "name": "description",
+      "description": "Building element type"
+    },
+    {
+      "name": "value",
+      "description": "Steel content (kg/m³), fixed or range"
+    }
+  ],
+  "row_count": 9,
+  "quality_flags": [
+    "corrupt_range: row 2 has min > max: '385-135 kg/m3' — min/max swapped"
+  ],
+  "rows": [
+    {
+      "row_id": "building-element-steel-content:_:1",
+      "item_no": "1",
+      "description": "General",
+      "value": {
+        "type": "range",
+        "min": 50.0,
+        "max": 250.0,
+        "unit": "kg/m3"
+      }
+    },
+    {
+      "row_id": "building-element-steel-content:_:2",
+      "item_no": "2",
+      "description": "Warehouse, girder bridges, rectangular tanks",
+      "value": {
+        "type": "range",
+        "min": 135.0,
+        "max": 385.0,
+        "unit": "kg/m3"
+      }
+    },
+    {
+      "row_id": "building-element-steel-content:_:3",
+      "item_no": "3",
+      "description": "Water towers, silos, circular bunkers, elevators pits and pithead gears",
+      "value": {
+        "type": "fixed",
+        "value": 100.0,
+        "unit": "kg/m3"
+      }
+    },
+    {
+      "row_id": "building-element-steel-content:_:4",
+      "item_no": "4",
+      "description": "Factories, residential building, schools, retaining walls",
+      "value": {
+        "type": "range",
+        "min": 65.0,
+        "max": 85.0,
+        "unit": "kg/m3"
+      }
+    },
+    {
+      "row_id": "building-element-steel-content:_:5",
+      "item_no": "5",
+      "description": "Culverts, swimming baths and open circular tanks",
+      "value": {
+        "type": "fixed",
+        "value": 65.0,
+        "unit": "kg/m3"
+      }
+    },
+    {
+      "row_id": "building-element-steel-content:_:6",
+      "item_no": "6",
+      "description": "Arch bridges, rectangular bunkers, pyramidal tanks in the ground and elevated conical tanks",
+      "value": {
+        "type": "range",
+        "min": 135.0,
+        "max": 165.0,
+        "unit": "kg/m3"
+      }
+    },
+    {
+      "row_id": "building-element-steel-content:_:7",
+      "item_no": "7",
+      "description": "Offices, shops & hotels",
+      "value": {
+        "type": "fixed",
+        "value": 75.0,
+        "unit": "kg/m3"
+      }
+    },
+    {
+      "row_id": "building-element-steel-content:_:8",
+      "item_no": "8",
+      "description": "Slab",
+      "value": {
+        "type": "range",
+        "min": 100.0,
+        "max": 150.0,
+        "unit": "kg/m3"
+      }
+    },
+    {
+      "row_id": "building-element-steel-content:_:9",
+      "item_no": "9",
+      "description": "Flat slab",
+      "value": {
+        "type": "range",
+        "min": 150.0,
+        "max": 200.0,
+        "unit": "kg/m3"
+      }
+    }
+  ]
+}

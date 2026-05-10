@@ -1,0 +1,491 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-10T02:46:00.952959Z",
+  "description": "Malaysian construction cost data scraped from quantitysurveyoronline.com.my. Includes all-in rates, labour, materials, plant, preliminaries, and reference tables.",
+  "source": "https://quantitysurveyoronline.com.my",
+  "currency_default": "MYR",
+  "usage": {
+    "manifest": "https://raw.githubusercontent.com/eva01/qs-data/master/manifest.json",
+    "readme": "https://raw.githubusercontent.com/eva01/qs-data/master/README.md",
+    "example_json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/latest.json",
+    "example_md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/latest.md",
+    "llm_tip": "Fetch manifest.json to discover all categories and their latest data URLs. Each category's latest.json is a self-describing document with schema_version, data_date, row_count, and structured rows. The .jsonl file has one row per line for streaming/partial reads."
+  },
+  "schemas": {
+    "price_table": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+    "reference_table": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+    "strength_group_list": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/strength_group_list.schema.json"
+  },
+  "categories": [
+    {
+      "slug": "all-in-rates-architecture",
+      "display_name": "All-In Rates (Architecture)",
+      "data_type": "price_table",
+      "summary": "All-in unit rates for architectural works in Malaysia including brickwall, blockwall, painting, floor finishes, floor screed, ceiling finishes, wall finishes, metal & steel work, roofing, and waterproofing. Rates include supply and labour.",
+      "tags": [
+        "architecture",
+        "brickwall",
+        "blockwall",
+        "painting",
+        "floor finishes",
+        "ceiling",
+        "wall finishes",
+        "roofing",
+        "waterproofing",
+        "steel work"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/all-in-rates-architecture.html",
+      "update_cadence": "monthly",
+      "currency": "MYR",
+      "unit_system": "metric",
+      "data_date": "2026-03-06",
+      "last_extracted_at": "2026-05-09T23:51:29Z",
+      "row_count": 57,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-architecture/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-architecture/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-architecture/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-03-06",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-architecture/2026-03-06.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-architecture/2026-03-06.md"
+        }
+      ]
+    },
+    {
+      "slug": "all-in-rates-structure",
+      "display_name": "All-In Rates (Structure)",
+      "data_type": "price_table",
+      "summary": "All-in unit rates for structural works in Malaysia including piling, excavation, bedding, reinforced concrete, formwork, reinforcement bar, and BRC mesh. Rates include supply and labour.",
+      "tags": [
+        "structure",
+        "piling",
+        "excavation",
+        "concrete",
+        "formwork",
+        "rebar",
+        "BRC",
+        "RC pile"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/all-in-rates-structure.html",
+      "update_cadence": "monthly",
+      "currency": "MYR",
+      "unit_system": "metric",
+      "data_date": "2026-03-06",
+      "last_extracted_at": "2026-05-09T23:51:56Z",
+      "row_count": 66,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-structure/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-structure/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-structure/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-03-06",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-structure/2026-03-06.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/all-in-rates-structure/2026-03-06.md"
+        }
+      ]
+    },
+    {
+      "slug": "building-element-steel-content",
+      "display_name": "Building Element Steel Content",
+      "data_type": "reference_table",
+      "summary": "Reference table for approximate steel reinforcement content (kg/m³) by building element type, from general structures to specific elements like slabs, flat slabs, warehouses, water towers, and bridges.",
+      "tags": [
+        "steel content",
+        "rebar",
+        "reinforcement",
+        "kg/m3",
+        "building element",
+        "reference"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/building-element-steel-content.html",
+      "update_cadence": "static",
+      "unit_system": "metric",
+      "data_date": "static",
+      "last_extracted_at": "2026-05-10T00:07:33Z",
+      "row_count": 9,
+      "quality_flags": [
+        "corrupt_range: row 2 has min > max: '385-135 kg/m3' — min/max swapped"
+      ],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/building-element-steel-content/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/building-element-steel-content/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/building-element-steel-content/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-05-09",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/building-element-steel-content/2026-05-09.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/building-element-steel-content/2026-05-09.md"
+        },
+        {
+          "date": "2026-05-10",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/building-element-steel-content/2026-05-10.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/building-element-steel-content/2026-05-10.md"
+        }
+      ]
+    },
+    {
+      "slug": "conversion-table",
+      "display_name": "Conversion Table",
+      "data_type": "reference_table",
+      "summary": "Unit conversion factors for area measurements used in construction quantity surveying, covering square inches, feet, yards, metres, kilometres, hectares, and acres.",
+      "tags": [
+        "conversion",
+        "units",
+        "area",
+        "measurement",
+        "reference"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/conversion-table.html",
+      "update_cadence": "static",
+      "unit_system": "mixed",
+      "data_date": "static",
+      "last_extracted_at": "2026-05-10T00:08:21Z",
+      "row_count": 17,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-05-09",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/2026-05-09.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/2026-05-09.md"
+        },
+        {
+          "date": "2026-05-10",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/2026-05-10.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/2026-05-10.md"
+        }
+      ]
+    },
+    {
+      "slug": "labour-rates",
+      "display_name": "Labour Rates",
+      "data_type": "price_table",
+      "summary": "Labour-only rates for construction trades in Malaysia including general/semi-skilled/skilled labour, structural work, floor finishes, wall finishes, door installation, and sanitary fittings. Rates are per unit of work output.",
+      "tags": [
+        "labour",
+        "formwork",
+        "rebar",
+        "concrete",
+        "tiles",
+        "plastering",
+        "door",
+        "sanitary"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/labour-rates.html",
+      "update_cadence": "monthly",
+      "currency": "MYR",
+      "unit_system": "metric",
+      "data_date": "2025-11-19",
+      "last_extracted_at": "2026-05-09T23:50:52Z",
+      "row_count": 44,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2025-11-19",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/2025-11-19.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/2025-11-19.md"
+        }
+      ]
+    },
+    {
+      "slug": "materials-prices",
+      "display_name": "Materials Prices",
+      "data_type": "price_table",
+      "summary": "Supply prices for construction materials in Malaysia including rebar, concrete, plaster, timber, plywood, BRC mesh, granular materials, bricks, blocks, tiles, marble, paint, pipes, metal sections, doors, ceiling boards, roofing, premix, drains, RC piles, and miscellaneous items.",
+      "tags": [
+        "materials",
+        "rebar",
+        "concrete",
+        "timber",
+        "plywood",
+        "BRC",
+        "brick",
+        "tile",
+        "paint",
+        "pipe",
+        "roofing",
+        "premix",
+        "drain",
+        "RC pile"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/materials-prices.html",
+      "update_cadence": "monthly",
+      "currency": "MYR",
+      "unit_system": "metric",
+      "data_date": "2026-03-06",
+      "last_extracted_at": "2026-05-10T00:29:02Z",
+      "row_count": 190,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-03-06",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/2026-03-06.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/2026-03-06.md"
+        }
+      ]
+    },
+    {
+      "slug": "plant-equipment-rates",
+      "display_name": "Plant & Equipment Rates",
+      "data_type": "price_table",
+      "summary": "Hire rates for plant and equipment in Malaysia including generators, lorries, cranes, pumps, and scaffolding. Many items have both daily (8h) and monthly rates.",
+      "tags": [
+        "plant",
+        "equipment",
+        "generator",
+        "lorry",
+        "crane",
+        "pump",
+        "scaffolding",
+        "backhoe",
+        "excavator"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/plant-equipment-rates.html",
+      "update_cadence": "monthly",
+      "currency": "MYR",
+      "unit_system": "metric",
+      "data_date": "2025-11-19",
+      "last_extracted_at": "2026-05-09T23:51:09Z",
+      "row_count": 63,
+      "quality_flags": [
+        "dual-unit with single price at plant-equipment-rates:B:8"
+      ],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2025-11-19",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/2025-11-19.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/2025-11-19.md"
+        }
+      ]
+    },
+    {
+      "slug": "preliminaries-rates",
+      "display_name": "Preliminaries Rates",
+      "data_type": "price_table",
+      "summary": "Rates for construction preliminaries in Malaysia including temporary site offices, site security, light and power, water, signboards, hoarding, safety precautions, fire protection, site management personnel, insurance, and statutory levies.",
+      "tags": [
+        "preliminaries",
+        "site office",
+        "security",
+        "power",
+        "water",
+        "hoarding",
+        "safety",
+        "insurance",
+        "CIDB levy",
+        "site management"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/preliminaries-rates.html",
+      "update_cadence": "monthly",
+      "currency": "MYR",
+      "unit_system": "metric",
+      "data_date": "2026-03-30",
+      "last_extracted_at": "2026-05-09T23:50:40Z",
+      "row_count": 43,
+      "quality_flags": [
+        "dual-unit with single price at preliminaries-rates:C:_1",
+        "dual-unit with single price at preliminaries-rates:C:_2"
+      ],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-03-30",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/2026-03-30.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/2026-03-30.md"
+        }
+      ]
+    },
+    {
+      "slug": "rebar-hook-bend-lap",
+      "display_name": "Rebar Hook, Bend & Lap",
+      "data_type": "reference_table",
+      "summary": "Reference table for rebar hook allowance, bend allowance, lapping, and tying allowances in mm for mild steel bars (BS 4449) and high yield bars (BS 4449/4461), covering bar sizes 6mm to 40mm diameter.",
+      "tags": [
+        "rebar",
+        "hook allowance",
+        "bend allowance",
+        "lapping",
+        "tying",
+        "BS 4449",
+        "BS 4461",
+        "reference"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/rebar-hook-bend-lap.html",
+      "update_cadence": "static",
+      "unit_system": "metric",
+      "data_date": "static",
+      "last_extracted_at": "2026-05-10T00:08:35Z",
+      "row_count": 72,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-hook-bend-lap/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-hook-bend-lap/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-hook-bend-lap/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-05-09",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-hook-bend-lap/2026-05-09.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-hook-bend-lap/2026-05-09.md"
+        },
+        {
+          "date": "2026-05-10",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-hook-bend-lap/2026-05-10.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-hook-bend-lap/2026-05-10.md"
+        }
+      ]
+    },
+    {
+      "slug": "rebar-kg-per-m",
+      "display_name": "Rebar kg/m",
+      "data_type": "reference_table",
+      "summary": "Reference table for steel reinforcement bar properties: diameter (mm), cross-sectional area (mm²), mass per metre (kg/m), and mass per 12-metre length (kg/12m), for sizes 6mm to 38mm diameter.",
+      "tags": [
+        "rebar",
+        "weight",
+        "mass per metre",
+        "cross sectional area",
+        "diameter",
+        "reference"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/rebar-kg-per-m.html",
+      "update_cadence": "static",
+      "unit_system": "metric",
+      "data_date": "static",
+      "last_extracted_at": "2026-05-10T00:08:52Z",
+      "row_count": 15,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-kg-per-m/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-kg-per-m/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-kg-per-m/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-05-09",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-kg-per-m/2026-05-09.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-kg-per-m/2026-05-09.md"
+        },
+        {
+          "date": "2026-05-10",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-kg-per-m/2026-05-10.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/rebar-kg-per-m/2026-05-10.md"
+        }
+      ]
+    },
+    {
+      "slug": "timber-strength-group",
+      "display_name": "Timber Strength Group",
+      "data_type": "strength_group_list",
+      "summary": "Malaysian timber species classified into strength groups A through D per the Malaysian Grading Rules, as used in structural timber design. Group A is the strongest (e.g. Balau, Chengal) down to Group D (e.g. Jelutong, Pulai).",
+      "tags": [
+        "timber",
+        "strength group",
+        "species",
+        "Malaysian timber",
+        "structural timber",
+        "reference"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/timber-strength-group.html",
+      "update_cadence": "static",
+      "data_date": "static",
+      "last_extracted_at": "2026-05-09T23:58:07Z",
+      "row_count": 4,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/strength_group_list.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/timber-strength-group/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/timber-strength-group/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/timber-strength-group/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-05-09",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/timber-strength-group/2026-05-09.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/timber-strength-group/2026-05-09.md"
+        }
+      ]
+    },
+    {
+      "slug": "weight-of-building-materials",
+      "display_name": "Weight of Building Materials",
+      "data_type": "reference_table",
+      "summary": "Reference table for weight/density of common building materials in Malaysian construction, including blockwork, brickwork, glass, glass fibre, and patent glazing, in kg/m² or kg/m³.",
+      "tags": [
+        "weight",
+        "density",
+        "building materials",
+        "blockwork",
+        "brickwork",
+        "glass",
+        "reference"
+      ],
+      "source_url": "https://quantitysurveyoronline.com.my/weight-of-building-materials.html",
+      "update_cadence": "static",
+      "unit_system": "metric",
+      "data_date": "static",
+      "last_extracted_at": "2026-05-10T00:08:55Z",
+      "row_count": 18,
+      "quality_flags": [],
+      "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+      "files": {
+        "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/weight-of-building-materials/latest.json",
+        "jsonl": "https://raw.githubusercontent.com/eva01/qs-data/master/data/weight-of-building-materials/latest.jsonl",
+        "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/weight-of-building-materials/latest.md"
+      },
+      "snapshots": [
+        {
+          "date": "2026-05-09",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/weight-of-building-materials/2026-05-09.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/weight-of-building-materials/2026-05-09.md"
+        },
+        {
+          "date": "2026-05-10",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/weight-of-building-materials/2026-05-10.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/weight-of-building-materials/2026-05-10.md"
+        }
+      ]
+    }
+  ]
+}

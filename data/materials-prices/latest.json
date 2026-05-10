@@ -1,0 +1,2971 @@
+{
+  "schema_version": "1.0.0",
+  "$schema": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+  "category": "materials-prices",
+  "data_type": "price_table",
+  "source": {
+    "image": "material-6-3-26_orig.png",
+    "url": "https://quantitysurveyoronline.com.my/materials-prices.html"
+  },
+  "data_date": "2026-03-06",
+  "extracted_at": "2026-05-10T00:29:02Z",
+  "extraction": {
+    "ocr_engine": "gemini+paddle-crosscheck",
+    "cross_check_confidence": 0.93
+  },
+  "currency": "MYR",
+  "unit_system": "metric",
+  "row_count": 190,
+  "quality_flags": [],
+  "rows": [
+    {
+      "row_id": "materials-prices:A:1",
+      "section": "A",
+      "section_name": "STEEL BAR (REBAR)",
+      "item_no": "1",
+      "description": "Tensile steel bar, T10, T40 diameter",
+      "price": {
+        "type": "fixed",
+        "value": 2520.0,
+        "currency": "MYR",
+        "raw": "RM2,520.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM2.52/kg"
+    },
+    {
+      "row_id": "materials-prices:A:2",
+      "section": "A",
+      "section_name": "STEEL BAR (REBAR)",
+      "item_no": "2",
+      "description": "Tensile steel bar, T12, T32 diameter",
+      "price": {
+        "type": "fixed",
+        "value": 2370.0,
+        "currency": "MYR",
+        "raw": "RM2,370.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM2.37/kg"
+    },
+    {
+      "row_id": "materials-prices:A:3",
+      "section": "A",
+      "section_name": "STEEL BAR (REBAR)",
+      "item_no": "3",
+      "description": "Tensile steel bar, T16 diameter",
+      "price": {
+        "type": "fixed",
+        "value": 2270.0,
+        "currency": "MYR",
+        "raw": "RM2,270.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM2.27/kg"
+    },
+    {
+      "row_id": "materials-prices:A:4",
+      "section": "A",
+      "section_name": "STEEL BAR (REBAR)",
+      "item_no": "4",
+      "description": "Tensile steel bar, T20 diameter",
+      "price": {
+        "type": "fixed",
+        "value": 2270.0,
+        "currency": "MYR",
+        "raw": "RM2,270.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM2.27/kg"
+    },
+    {
+      "row_id": "materials-prices:A:5",
+      "section": "A",
+      "section_name": "STEEL BAR (REBAR)",
+      "item_no": "5",
+      "description": "Tensile steel bar, T25 diameter",
+      "price": {
+        "type": "fixed",
+        "value": 2320.0,
+        "currency": "MYR",
+        "raw": "RM2,320.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM2.32/kg"
+    },
+    {
+      "row_id": "materials-prices:A:6",
+      "section": "A",
+      "section_name": "STEEL BAR (REBAR)",
+      "item_no": "6",
+      "description": "Mild steel bar, R6, R8, R10, R12, R16 diameter",
+      "price": {
+        "type": "fixed",
+        "value": 2690.0,
+        "currency": "MYR",
+        "raw": "RM2,690.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM2.69/kg"
+    },
+    {
+      "row_id": "materials-prices:B:1",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "1",
+      "description": "Ready mixed concrete, Grade 10 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 300.0,
+        "currency": "MYR",
+        "raw": "RM300.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "Add RM5.00/m3 -"
+    },
+    {
+      "row_id": "materials-prices:B:2",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "2",
+      "description": "Ready mixed concrete, Grade 10 (pump mix)",
+      "price": {
+        "type": "fixed",
+        "value": 306.0,
+        "currency": "MYR",
+        "raw": "RM306.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "RM15.00/m3 for"
+    },
+    {
+      "row_id": "materials-prices:B:3",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "3",
+      "description": "Ready mixed concrete, Grade 15 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 302.0,
+        "currency": "MYR",
+        "raw": "RM302.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "every normal grade"
+    },
+    {
+      "row_id": "materials-prices:B:4",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "4",
+      "description": "Ready mixed concrete, Grade 15 (pump mix)",
+      "price": {
+        "type": "fixed",
+        "value": 308.0,
+        "currency": "MYR",
+        "raw": "RM308.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "Add RM6.00/m3 for"
+    },
+    {
+      "row_id": "materials-prices:B:5",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "5",
+      "description": "Ready mixed concrete, Grade 20 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 310.0,
+        "currency": "MYR",
+        "raw": "RM310.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "pump mix"
+    },
+    {
+      "row_id": "materials-prices:B:6",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "6",
+      "description": "Ready mixed concrete, Grade 20 (pump mix)",
+      "price": {
+        "type": "fixed",
+        "value": 316.0,
+        "currency": "MYR",
+        "raw": "RM316.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "Add RM12.00/m3 for"
+    },
+    {
+      "row_id": "materials-prices:B:7",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "7",
+      "description": "Ready mixed concrete, Grade 25 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 318.0,
+        "currency": "MYR",
+        "raw": "RM318.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "tremie 1 mix"
+    },
+    {
+      "row_id": "materials-prices:B:8",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "8",
+      "description": "Ready mixed concrete, Grade 25 (pump mix)",
+      "price": {
+        "type": "fixed",
+        "value": 324.0,
+        "currency": "MYR",
+        "raw": "RM324.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "Add RM18.00/m3 for"
+    },
+    {
+      "row_id": "materials-prices:B:9",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "9",
+      "description": "Ready mixed concrete, Grade 30 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 332.0,
+        "currency": "MYR",
+        "raw": "RM332.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "tremie 2 mix"
+    },
+    {
+      "row_id": "materials-prices:B:10",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "10",
+      "description": "Ready mixed concrete, Grade 30 (pump mix)",
+      "price": {
+        "type": "fixed",
+        "value": 338.0,
+        "currency": "MYR",
+        "raw": "RM338.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "Add RM25.00/m3 for"
+    },
+    {
+      "row_id": "materials-prices:B:11",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "11",
+      "description": "Ready mixed concrete, Grade 35 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 346.0,
+        "currency": "MYR",
+        "raw": "RM346.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "JKR mix"
+    },
+    {
+      "row_id": "materials-prices:B:12",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "12",
+      "description": "Ready mixed concrete, Grade 35 (pump mix)",
+      "price": {
+        "type": "fixed",
+        "value": 352.0,
+        "currency": "MYR",
+        "raw": "RM352.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "Add RM20.00/m3 for"
+    },
+    {
+      "row_id": "materials-prices:B:13",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "13",
+      "description": "Ready mixed concrete, Grade 40 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 360.0,
+        "currency": "MYR",
+        "raw": "RM360.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "waterproofing mix"
+    },
+    {
+      "row_id": "materials-prices:B:14",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "14",
+      "description": "Ready mixed concrete, Grade 40 (pump mix)",
+      "price": {
+        "type": "fixed",
+        "value": 366.0,
+        "currency": "MYR",
+        "raw": "RM366.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "(But not including"
+    },
+    {
+      "row_id": "materials-prices:B:15",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "15",
+      "description": "Ready mixed concrete, Grade 45 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 374.0,
+        "currency": "MYR",
+        "raw": "RM374.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "supply of additives)"
+    },
+    {
+      "row_id": "materials-prices:B:16",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "16",
+      "description": "Ready mixed concrete, Grade 45 (pump mix)",
+      "price": {
+        "type": "fixed",
+        "value": 380.0,
+        "currency": "MYR",
+        "raw": "RM380.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "Add RM40.00/m3 for"
+    },
+    {
+      "row_id": "materials-prices:B:17",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "17",
+      "description": "Ready mixed concrete, Grade 50 (tremie 1 mix)",
+      "price": {
+        "type": "fixed",
+        "value": 352.0,
+        "currency": "MYR",
+        "raw": "RM352.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3",
+      "remarks": "chipping mix"
+    },
+    {
+      "row_id": "materials-prices:B:18",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "18",
+      "description": "Ready mixed concrete, Grade 55 (tremie 2 mix)",
+      "price": {
+        "type": "fixed",
+        "value": 380.0,
+        "currency": "MYR",
+        "raw": "RM380.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3"
+    },
+    {
+      "row_id": "materials-prices:B:19",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "19",
+      "description": "Ready mixed concrete, Grade 60 (tremie 2 mix)",
+      "price": {
+        "type": "fixed",
+        "value": 400.0,
+        "currency": "MYR",
+        "raw": "RM400.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3"
+    },
+    {
+      "row_id": "materials-prices:B:20",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "20",
+      "description": "Mortar 1:3 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 265.0,
+        "currency": "MYR",
+        "raw": "RM265.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3"
+    },
+    {
+      "row_id": "materials-prices:B:21",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "21",
+      "description": "Mortar 1:4 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 255.0,
+        "currency": "MYR",
+        "raw": "RM255.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3"
+    },
+    {
+      "row_id": "materials-prices:B:22",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "22",
+      "description": "Mortar 1:5 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 245.0,
+        "currency": "MYR",
+        "raw": "RM245.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3"
+    },
+    {
+      "row_id": "materials-prices:B:23",
+      "section": "B",
+      "section_name": "CONCRETE",
+      "item_no": "23",
+      "description": "Mortar 1:6 (normal)",
+      "price": {
+        "type": "fixed",
+        "value": 235.0,
+        "currency": "MYR",
+        "raw": "RM235.00"
+      },
+      "unit": "m³",
+      "unit_raw": "M3"
+    },
+    {
+      "row_id": "materials-prices:C:1",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "1",
+      "description": "Cement, ordinary portland (50kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 26.0,
+        "currency": "MYR",
+        "raw": "RM26.00"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:C:2",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "2",
+      "description": "Wallcrete (50kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 14.5,
+        "currency": "MYR",
+        "raw": "RM14.50"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:C:3",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "3",
+      "description": "Sika-non-shrink grout 215 (25kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 32.0,
+        "currency": "MYR",
+        "raw": "RM32.00"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:C:4",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "4",
+      "description": "Finishing coat (white) for skim coat (25kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 18.7,
+        "currency": "MYR",
+        "raw": "RM18.70"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:C:5",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "5",
+      "description": "Finishing coat (grey) for skim coat (40kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 21.5,
+        "currency": "MYR",
+        "raw": "RM21.50"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:C:6",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "6",
+      "description": "Base coat (white) for skim coat (40kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 23.0,
+        "currency": "MYR",
+        "raw": "RM23.00"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:C:7",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "7",
+      "description": "Base coat (grey) for skim coat (40kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 17.8,
+        "currency": "MYR",
+        "raw": "RM17.80"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:C:8",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "8",
+      "description": "Rendering coat (40kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 16.1,
+        "currency": "MYR",
+        "raw": "RM16.10"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:C:9",
+      "section": "C",
+      "section_name": "PLASTER, RENDER & SKIM COAT",
+      "item_no": "9",
+      "description": "Pre-packed plaster for block work (40kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 14.85,
+        "currency": "MYR",
+        "raw": "RM14.85"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:D:1",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "1",
+      "description": "3mm thick plywood, (4' x 8') 2nd grade",
+      "price": {
+        "type": "fixed",
+        "value": 23.0,
+        "currency": "MYR",
+        "raw": "RM23.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM7.74/m2"
+    },
+    {
+      "row_id": "materials-prices:D:2",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "2",
+      "description": "6mm thick plywood, (4' x 8') 1st grade",
+      "price": {
+        "type": "fixed",
+        "value": 39.0,
+        "currency": "MYR",
+        "raw": "RM39.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM13.12/m2"
+    },
+    {
+      "row_id": "materials-prices:D:3",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "3",
+      "description": "6mm thick plywood, (4' x 8') 2nd grade",
+      "price": {
+        "type": "fixed",
+        "value": 34.0,
+        "currency": "MYR",
+        "raw": "RM34.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM11.44/m2"
+    },
+    {
+      "row_id": "materials-prices:D:4",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "4",
+      "description": "9mm thick plywood, (4' x 8') 2nd grade",
+      "price": {
+        "type": "fixed",
+        "value": 45.0,
+        "currency": "MYR",
+        "raw": "RM45.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM15.14/m2"
+    },
+    {
+      "row_id": "materials-prices:D:5",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "5",
+      "description": "12mm thick plywood, WBP 5 ply (4' x 8') 1st grade",
+      "price": {
+        "type": "fixed",
+        "value": 55.0,
+        "currency": "MYR",
+        "raw": "RM55.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM18.50/m2"
+    },
+    {
+      "row_id": "materials-prices:D:6",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "6",
+      "description": "12mm thick plywood, WBP 5 ply (4' x 8') 2nd grade",
+      "price": {
+        "type": "fixed",
+        "value": 50.0,
+        "currency": "MYR",
+        "raw": "RM50.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM16.82/m2"
+    },
+    {
+      "row_id": "materials-prices:D:7",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "7",
+      "description": "12mm thick plywood, tego, 7 Ply (4'x8')",
+      "price": {
+        "type": "fixed",
+        "value": 55.0,
+        "currency": "MYR",
+        "raw": "RM55.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM18.50/m2"
+    },
+    {
+      "row_id": "materials-prices:D:8",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "8",
+      "description": "12mm thick plywood, WBP, 7 Ply (4'x8')",
+      "price": {
+        "type": "fixed",
+        "value": 52.0,
+        "currency": "MYR",
+        "raw": "RM52.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM17.49/m2"
+    },
+    {
+      "row_id": "materials-prices:D:9",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "9",
+      "description": "12mm thick plywood, waterproof, 7 ply (4'x8')",
+      "price": {
+        "type": "fixed",
+        "value": 53.5,
+        "currency": "MYR",
+        "raw": "RM53.50"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM18.00/m2"
+    },
+    {
+      "row_id": "materials-prices:D:10",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "10",
+      "description": "Wrot timber for formwork 1\" x 2\" of at least 8' long",
+      "price": {
+        "type": "fixed",
+        "value": 1100.0,
+        "currency": "MYR",
+        "raw": "RM1,100.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM792.88/m3"
+    },
+    {
+      "row_id": "materials-prices:D:11",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "11",
+      "description": "Ditto; 1\" x 2\" of at least 12' long",
+      "price": {
+        "type": "fixed",
+        "value": 1650.0,
+        "currency": "MYR",
+        "raw": "RM1,650.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM1189.32/m3"
+    },
+    {
+      "row_id": "materials-prices:D:12",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "12",
+      "description": "Ditto; 2\" x 3\" of at least 8' long",
+      "price": {
+        "type": "fixed",
+        "value": 1070.0,
+        "currency": "MYR",
+        "raw": "RM1,070.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM771.26/m3"
+    },
+    {
+      "row_id": "materials-prices:D:13",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "13",
+      "description": "Ditto; 2\" x 3\" of at least 12' long",
+      "price": {
+        "type": "fixed",
+        "value": 1200.0,
+        "currency": "MYR",
+        "raw": "RM1,200.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM864.96/m3"
+    },
+    {
+      "row_id": "materials-prices:D:14",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "14",
+      "description": "Ditto; 2\" x 4\" of at least 8' long",
+      "price": {
+        "type": "fixed",
+        "value": 1470.0,
+        "currency": "MYR",
+        "raw": "RM1,470.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM1059.58/m3"
+    },
+    {
+      "row_id": "materials-prices:D:15",
+      "section": "D",
+      "section_name": "TIMBER & PLYWOOD",
+      "item_no": "15",
+      "description": "Ditto; 2\" x 4\" of at least 12' long",
+      "price": {
+        "type": "fixed",
+        "value": 1600.0,
+        "currency": "MYR",
+        "raw": "RM1,600.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM1153.28/m3"
+    },
+    {
+      "row_id": "materials-prices:E:1",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "1",
+      "description": "BRC A6 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 67.32,
+        "currency": "MYR",
+        "raw": "RM67.32"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM5.10/m2"
+    },
+    {
+      "row_id": "materials-prices:E:2",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "2",
+      "description": "BRC A7 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 91.56,
+        "currency": "MYR",
+        "raw": "RM91.56"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM6.94/m2"
+    },
+    {
+      "row_id": "materials-prices:E:3",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "3",
+      "description": "BRC A8 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 119.83,
+        "currency": "MYR",
+        "raw": "RM119.83"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM9.08/m2"
+    },
+    {
+      "row_id": "materials-prices:E:4",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "4",
+      "description": "BRC A9 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 151.25,
+        "currency": "MYR",
+        "raw": "RM151.25"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM11.46/m2"
+    },
+    {
+      "row_id": "materials-prices:E:5",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "5",
+      "description": "BRC A10 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 186.7,
+        "currency": "MYR",
+        "raw": "RM186.70"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM14.14/m2"
+    },
+    {
+      "row_id": "materials-prices:E:6",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "6",
+      "description": "BRC A11 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 226.2,
+        "currency": "MYR",
+        "raw": "RM226.20"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM17.14/m2"
+    },
+    {
+      "row_id": "materials-prices:E:7",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "7",
+      "description": "BRC A12 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 298.9,
+        "currency": "MYR",
+        "raw": "RM298.90"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM22.64/m2"
+    },
+    {
+      "row_id": "materials-prices:E:8",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "8",
+      "description": "BRC B6 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 113.1,
+        "currency": "MYR",
+        "raw": "RM113.10"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM8.57/m2"
+    },
+    {
+      "row_id": "materials-prices:E:9",
+      "section": "E",
+      "section_name": "BRC",
+      "item_no": "9",
+      "description": "BRC B7 (2.2 x 6.0m)",
+      "price": {
+        "type": "fixed",
+        "value": 137.33,
+        "currency": "MYR",
+        "raw": "RM137.33"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM10.40/m2"
+    },
+    {
+      "row_id": "materials-prices:F:1",
+      "section": "F",
+      "section_name": "GRANULAR MATERIAL",
+      "item_no": "1",
+      "description": "Washed fine sand",
+      "price": {
+        "type": "range",
+        "min": 902.0,
+        "max": 990.0,
+        "currency": "MYR",
+        "raw": "RM902 - RM990"
+      },
+      "unit": "per load",
+      "unit_raw": "Per Load",
+      "remarks": "(10-wheel lorry; 22 tonne)"
+    },
+    {
+      "row_id": "materials-prices:F:2",
+      "section": "F",
+      "section_name": "GRANULAR MATERIAL",
+      "item_no": "2",
+      "description": "Concreting sand/Coarse sand",
+      "price": {
+        "type": "range",
+        "min": 704.0,
+        "max": 814.0,
+        "currency": "MYR",
+        "raw": "RM704 - RM814"
+      },
+      "unit": "per load",
+      "unit_raw": "Per Load",
+      "remarks": "(10-wheel lorry; 22 tonne)"
+    },
+    {
+      "row_id": "materials-prices:F:3",
+      "section": "F",
+      "section_name": "GRANULAR MATERIAL",
+      "item_no": "3",
+      "description": "3/4' Aggregates",
+      "price": {
+        "type": "fixed",
+        "value": 34.5,
+        "currency": "MYR",
+        "raw": "RM34.50"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM80.36/m3"
+    },
+    {
+      "row_id": "materials-prices:F:4",
+      "section": "F",
+      "section_name": "GRANULAR MATERIAL",
+      "item_no": "4",
+      "description": "2\" Crusher run",
+      "price": {
+        "type": "fixed",
+        "value": 29.0,
+        "currency": "MYR",
+        "raw": "RM29.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM66.70/m3"
+    },
+    {
+      "row_id": "materials-prices:F:5",
+      "section": "F",
+      "section_name": "GRANULAR MATERIAL",
+      "item_no": "5",
+      "description": "Mining sand",
+      "price": {
+        "type": "fixed",
+        "value": 36.0,
+        "currency": "MYR",
+        "raw": "RM36.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:F:6",
+      "section": "F",
+      "section_name": "GRANULAR MATERIAL",
+      "item_no": "6",
+      "description": "6' x 9' Granite stone block",
+      "price": {
+        "type": "fixed",
+        "value": 33.0,
+        "currency": "MYR",
+        "raw": "RM33.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM75.90/m3"
+    },
+    {
+      "row_id": "materials-prices:F:7",
+      "section": "F",
+      "section_name": "GRANULAR MATERIAL",
+      "item_no": "7",
+      "description": "Quarry dust",
+      "price": {
+        "type": "fixed",
+        "value": 30.0,
+        "currency": "MYR",
+        "raw": "RM30.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM69.00/m3"
+    },
+    {
+      "row_id": "materials-prices:F:8",
+      "section": "F",
+      "section_name": "GRANULAR MATERIAL",
+      "item_no": "8",
+      "description": "Quarry waste",
+      "price": {
+        "type": "fixed",
+        "value": 21.0,
+        "currency": "MYR",
+        "raw": "RM21.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:G:1",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "1",
+      "description": "Clay common brick",
+      "price": {
+        "type": "fixed",
+        "value": 0.53,
+        "currency": "MYR",
+        "raw": "RM0.53"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM31.41/m2"
+    },
+    {
+      "row_id": "materials-prices:G:2",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "2",
+      "description": "Cement and sand brick",
+      "price": {
+        "type": "fixed",
+        "value": 0.33,
+        "currency": "MYR",
+        "raw": "RM0.33"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM24.18/m2"
+    },
+    {
+      "row_id": "materials-prices:G:3",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "3",
+      "description": "Cement and sand block 610 x 210 x 115mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 3.0,
+        "currency": "MYR",
+        "raw": "RM3.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM23.42/m2"
+    },
+    {
+      "row_id": "materials-prices:G:4",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "4",
+      "description": "Fibre cement board (1220 x 2440 x 6mm thk)",
+      "price": {
+        "type": "fixed",
+        "value": 39.0,
+        "currency": "MYR",
+        "raw": "RM39.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM13.10/m2"
+    },
+    {
+      "row_id": "materials-prices:G:5",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "5",
+      "description": "Fibre cement board (1220 x 2440 x 9mm thk)",
+      "price": {
+        "type": "fixed",
+        "value": 63.0,
+        "currency": "MYR",
+        "raw": "RM63.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM21.16/m2"
+    },
+    {
+      "row_id": "materials-prices:G:6",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "6",
+      "description": "600 x 200 x 125mm thick light weight AAC block",
+      "price": {
+        "type": "fixed",
+        "value": 4.75,
+        "currency": "MYR",
+        "raw": "RM4.75"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM39.58/m2"
+    },
+    {
+      "row_id": "materials-prices:G:7",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "7",
+      "description": "Ditto; but for 100mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 3.8,
+        "currency": "MYR",
+        "raw": "RM3.80"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM31.67/m2"
+    },
+    {
+      "row_id": "materials-prices:G:8",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "8",
+      "description": "Ditto; but for 150mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 5.7,
+        "currency": "MYR",
+        "raw": "RM5.70"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM47.5/m2"
+    },
+    {
+      "row_id": "materials-prices:G:9",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "9",
+      "description": "Ditto; but for 200mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 7.6,
+        "currency": "MYR",
+        "raw": "RM7.60"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM63.33/m2"
+    },
+    {
+      "row_id": "materials-prices:G:10",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "10",
+      "description": "Bed Adhesive (40kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 25.0,
+        "currency": "MYR",
+        "raw": "RM25.00"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:G:11",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "11",
+      "description": "Bondcrete white cement (25kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 17.8,
+        "currency": "MYR",
+        "raw": "RM17.80"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:G:12",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "12",
+      "description": "Latex admixture for plastering 18 litre (susu)",
+      "price": {
+        "type": "fixed",
+        "value": 63.0,
+        "currency": "MYR",
+        "raw": "RM63.00"
+      },
+      "unit": "drum",
+      "unit_raw": "Drum"
+    },
+    {
+      "row_id": "materials-prices:G:13",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "13",
+      "description": "Metal exmet 75mm (wide) x 120ft",
+      "price": {
+        "type": "fixed",
+        "value": 9.0,
+        "currency": "MYR",
+        "raw": "RM9.00"
+      },
+      "unit": "roll",
+      "unit_raw": "Roll"
+    },
+    {
+      "row_id": "materials-prices:G:14",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "14",
+      "description": "3000 (l) x 600 (w) x 125mm thick hollow core concrete panel including joints adhesive",
+      "price": {
+        "type": "fixed",
+        "value": 46.0,
+        "currency": "MYR",
+        "raw": "RM46.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:G:15",
+      "section": "G",
+      "section_name": "BRICK, BLOCK & PANEL",
+      "item_no": "15",
+      "description": "3000 (l) x 600 (w) x 100mm thick hollow core concrete panel including joints adhesive",
+      "price": {
+        "type": "fixed",
+        "value": 42.0,
+        "currency": "MYR",
+        "raw": "RM42.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:H:1",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "1",
+      "description": "Tile, homogeneous, nosing tile 80 x 200mm",
+      "price": {
+        "type": "fixed",
+        "value": 1.8,
+        "currency": "MYR",
+        "raw": "RM1.80"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM9.00/m"
+    },
+    {
+      "row_id": "materials-prices:H:2",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "2",
+      "description": "Tile, homogeneous; 300 x 300mm (light)",
+      "price": {
+        "type": "fixed",
+        "value": 2.15,
+        "currency": "MYR",
+        "raw": "RM2.15"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM23.89/m2"
+    },
+    {
+      "row_id": "materials-prices:H:3",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "3",
+      "description": "Tile, homogeneous; 300 x 300mm (dark)",
+      "price": {
+        "type": "fixed",
+        "value": 3.5,
+        "currency": "MYR",
+        "raw": "RM3.50"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM38.89/m2"
+    },
+    {
+      "row_id": "materials-prices:H:4",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "4",
+      "description": "Tile, homogeneous; 600 x 600mm",
+      "price": {
+        "type": "fixed",
+        "value": 15.0,
+        "currency": "MYR",
+        "raw": "RM15.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM41.67/m2"
+    },
+    {
+      "row_id": "materials-prices:H:5",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "5",
+      "description": "Tile, porcelain; 600 x 600mm 1st grade",
+      "price": {
+        "type": "fixed",
+        "value": 17.5,
+        "currency": "MYR",
+        "raw": "RM17.50"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM48.61/m2"
+    },
+    {
+      "row_id": "materials-prices:H:6",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "6",
+      "description": "Tile, porcelain; 600 x 300mm 1st grade",
+      "price": {
+        "type": "fixed",
+        "value": 9.0,
+        "currency": "MYR",
+        "raw": "RM9.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM50.00/m2"
+    },
+    {
+      "row_id": "materials-prices:H:7",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "7",
+      "description": "Tile, porcelain; 800 x 800mm",
+      "price": {
+        "type": "fixed",
+        "value": 9.0,
+        "currency": "MYR",
+        "raw": "RM9.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM60.94/m2"
+    },
+    {
+      "row_id": "materials-prices:H:8",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "8",
+      "description": "Tile, porcelain; 300 x 300mm",
+      "price": {
+        "type": "fixed",
+        "value": 3.0,
+        "currency": "MYR",
+        "raw": "RM3.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM33.33/m2"
+    },
+    {
+      "row_id": "materials-prices:H:9",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "9",
+      "description": "Tile, ceramic; 300 x 600mm",
+      "price": {
+        "type": "fixed",
+        "value": 4.0,
+        "currency": "MYR",
+        "raw": "RM4.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM22.22/m2"
+    },
+    {
+      "row_id": "materials-prices:H:10",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "10",
+      "description": "Tile, ceramic; 300 x 300mm",
+      "price": {
+        "type": "fixed",
+        "value": 2.0,
+        "currency": "MYR",
+        "raw": "RM2.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM22.22/m2"
+    },
+    {
+      "row_id": "materials-prices:H:11",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "11",
+      "description": "Marble, polished 600 x 600 x 18mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 60.0,
+        "currency": "MYR",
+        "raw": "RM60.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:H:12",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "12",
+      "description": "Tile adhesive (25kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 13.8,
+        "currency": "MYR",
+        "raw": "RM13.80"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:H:13",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "13",
+      "description": "Tile adhesive premium (25kg/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 18.3,
+        "currency": "MYR",
+        "raw": "RM18.30"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:H:14",
+      "section": "H",
+      "section_name": "TILES & MARBLE",
+      "item_no": "14",
+      "description": "Tile adhesive additives (200g/bag)",
+      "price": {
+        "type": "fixed",
+        "value": 6.5,
+        "currency": "MYR",
+        "raw": "RM6.50"
+      },
+      "unit": "bag",
+      "unit_raw": "Bag"
+    },
+    {
+      "row_id": "materials-prices:I:1",
+      "section": "I",
+      "section_name": "PAINT",
+      "item_no": "1",
+      "description": "Emulsion paint, wall sealer, 20 litres (for external use)",
+      "price": {
+        "type": "fixed",
+        "value": 175.0,
+        "currency": "MYR",
+        "raw": "RM175.00"
+      },
+      "unit": "drum",
+      "unit_raw": "Drum"
+    },
+    {
+      "row_id": "materials-prices:I:2",
+      "section": "I",
+      "section_name": "PAINT",
+      "item_no": "2",
+      "description": "Emulsion paint, weather bond, 20 litres (for",
+      "price": {
+        "type": "fixed",
+        "value": 275.0,
+        "currency": "MYR",
+        "raw": "RM275.00"
+      },
+      "unit": "drum",
+      "unit_raw": "Drum"
+    },
+    {
+      "row_id": "materials-prices:I:3",
+      "section": "I",
+      "section_name": "PAINT",
+      "item_no": "3",
+      "description": "Emulsion paint, basecoat sealer, 20 litres (for internal use)",
+      "price": {
+        "type": "fixed",
+        "value": 90.0,
+        "currency": "MYR",
+        "raw": "RM90.00"
+      },
+      "unit": "drum",
+      "unit_raw": "Drum"
+    },
+    {
+      "row_id": "materials-prices:I:4",
+      "section": "I",
+      "section_name": "PAINT",
+      "item_no": "4",
+      "description": "Emulsion paint, matex pro, 18 litres (for internal",
+      "price": {
+        "type": "fixed",
+        "value": 68.0,
+        "currency": "MYR",
+        "raw": "RM68.00"
+      },
+      "unit": "drum",
+      "unit_raw": "Drum"
+    },
+    {
+      "row_id": "materials-prices:I:5",
+      "section": "I",
+      "section_name": "PAINT",
+      "item_no": "5",
+      "description": "Enamel paint for steelwork / ms railing / metal door / timber surface, gloss finish, 20 litres",
+      "price": {
+        "type": "fixed",
+        "value": 360.0,
+        "currency": "MYR",
+        "raw": "RM360.00"
+      },
+      "unit": "drum",
+      "unit_raw": "Drum"
+    },
+    {
+      "row_id": "materials-prices:I:6",
+      "section": "I",
+      "section_name": "PAINT",
+      "item_no": "6",
+      "description": "Enamel paint for steelwork / ms railing / metal door / timber surface, primer, 20 litres",
+      "price": {
+        "type": "fixed",
+        "value": 168.0,
+        "currency": "MYR",
+        "raw": "RM168.00"
+      },
+      "unit": "drum",
+      "unit_raw": "Drum"
+    },
+    {
+      "row_id": "materials-prices:J:1",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "1",
+      "description": "100mm dia. x 5.8m uPVC pipe (sirim approved)",
+      "price": {
+        "type": "fixed",
+        "value": 11.38,
+        "currency": "MYR",
+        "raw": "RM11.38"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:2",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "2",
+      "description": "150mm dia. x 5.8m uPVC pipe (sirim approved)",
+      "price": {
+        "type": "fixed",
+        "value": 24.9,
+        "currency": "MYR",
+        "raw": "RM24.90"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:3",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "3",
+      "description": "150mm dia. uPVC socket (sirim approved)",
+      "price": {
+        "type": "fixed",
+        "value": 20.35,
+        "currency": "MYR",
+        "raw": "RM20.35"
+      },
+      "unit": "each",
+      "unit_raw": "No"
+    },
+    {
+      "row_id": "materials-prices:J:4",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "4",
+      "description": "100mm dia. uPVC elbow 45 degree",
+      "price": {
+        "type": "fixed",
+        "value": 15.5,
+        "currency": "MYR",
+        "raw": "RM15.50"
+      },
+      "unit": "each",
+      "unit_raw": "No"
+    },
+    {
+      "row_id": "materials-prices:J:5",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "5",
+      "description": "100mm dia. uPVC elbow 90 degree",
+      "price": {
+        "type": "fixed",
+        "value": 15.5,
+        "currency": "MYR",
+        "raw": "RM15.50"
+      },
+      "unit": "each",
+      "unit_raw": "No"
+    },
+    {
+      "row_id": "materials-prices:J:6",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "6",
+      "description": "100mm ductile iron gate valve (BS5163) tupe b-tek",
+      "price": {
+        "type": "fixed",
+        "value": 271.0,
+        "currency": "MYR",
+        "raw": "RM271.00"
+      },
+      "unit": "each",
+      "unit_raw": "No"
+    },
+    {
+      "row_id": "materials-prices:J:7",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "7",
+      "description": "100mm mild steel flange T/E (xtra hole)",
+      "price": {
+        "type": "fixed",
+        "value": 10.5,
+        "currency": "MYR",
+        "raw": "RM10.50"
+      },
+      "unit": "each",
+      "unit_raw": "No"
+    },
+    {
+      "row_id": "materials-prices:J:8",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "8",
+      "description": "100mm mild steel P/E bend (painted)",
+      "price": {
+        "type": "fixed",
+        "value": 56.5,
+        "currency": "MYR",
+        "raw": "RM56.50"
+      },
+      "unit": "each",
+      "unit_raw": "No"
+    },
+    {
+      "row_id": "materials-prices:J:9",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "9",
+      "description": "100mm rubber gasket T/E",
+      "price": {
+        "type": "fixed",
+        "value": 1.5,
+        "currency": "MYR",
+        "raw": "RM1.50"
+      },
+      "unit": "each",
+      "unit_raw": "No"
+    },
+    {
+      "row_id": "materials-prices:J:10",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "10",
+      "description": "RC pipe culvert (spigot socket joint) 300 dia.; 3.05m",
+      "price": {
+        "type": "fixed",
+        "value": 183.6,
+        "currency": "MYR",
+        "raw": "RM183.60"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:J:11",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "11",
+      "description": "Stainless steel pipe 20mm dia. X 6.1m (SCH 40)",
+      "price": {
+        "type": "fixed",
+        "value": 128.0,
+        "currency": "MYR",
+        "raw": "RM128.00"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:12",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "12",
+      "description": "High density polyethylene pipes (HDPE); 110mm dia. PN10 black",
+      "price": {
+        "type": "fixed",
+        "value": 16.8,
+        "currency": "MYR",
+        "raw": "RM16.80"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:13",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "13",
+      "description": "Ditto; 160mm dia. PN10 black",
+      "price": {
+        "type": "fixed",
+        "value": 35.4,
+        "currency": "MYR",
+        "raw": "RM35.40"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:14",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "14",
+      "description": "Ditto; 110mm dia. PN10 red",
+      "price": {
+        "type": "fixed",
+        "value": 18.55,
+        "currency": "MYR",
+        "raw": "RM18.55"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:15",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "15",
+      "description": "Ditto; 160mm dia. PN10 red",
+      "price": {
+        "type": "fixed",
+        "value": 38.34,
+        "currency": "MYR",
+        "raw": "RM38.34"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:16",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "16",
+      "description": "Ditto; 110mm dia. PN8 black",
+      "price": {
+        "type": "fixed",
+        "value": 13.87,
+        "currency": "MYR",
+        "raw": "RM13.87"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:17",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "17",
+      "description": "Ditto; 160mm dia. PN8 black",
+      "price": {
+        "type": "fixed",
+        "value": 29.04,
+        "currency": "MYR",
+        "raw": "RM29.04"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:18",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "18",
+      "description": "Ditto; 110mm dia. PN8 red",
+      "price": {
+        "type": "fixed",
+        "value": 15.3,
+        "currency": "MYR",
+        "raw": "RM15.30"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:19",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "19",
+      "description": "Ditto; 160mm dia. PN8 red",
+      "price": {
+        "type": "fixed",
+        "value": 31.46,
+        "currency": "MYR",
+        "raw": "RM31.46"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:20",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "20",
+      "description": "Ductile iron pipe (K9); 100mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 69.17,
+        "currency": "MYR",
+        "raw": "RM69.17"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:21",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "21",
+      "description": "Ditto; 150mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 86.67,
+        "currency": "MYR",
+        "raw": "RM86.67"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:22",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "22",
+      "description": "Ditto; 200mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 116.7,
+        "currency": "MYR",
+        "raw": "RM116.70"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:23",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "23",
+      "description": "Ditto; 250mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 154.16,
+        "currency": "MYR",
+        "raw": "RM154.16"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:24",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "24",
+      "description": "Ditto; 300mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 193.33,
+        "currency": "MYR",
+        "raw": "RM193.33"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:25",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "25",
+      "description": "Ditto; 400mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 295.83,
+        "currency": "MYR",
+        "raw": "RM295.83"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:26",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "26",
+      "description": "Ditto; 500mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 408.33,
+        "currency": "MYR",
+        "raw": "RM408.33"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:27",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "27",
+      "description": "Ditto; 600mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 562.5,
+        "currency": "MYR",
+        "raw": "RM562.50"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:J:28",
+      "section": "J",
+      "section_name": "PIPE",
+      "item_no": "28",
+      "description": "Ditto; 700mm dia. x 6m",
+      "price": {
+        "type": "fixed",
+        "value": 733.33,
+        "currency": "MYR",
+        "raw": "RM733.33"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:K:1",
+      "section": "K",
+      "section_name": "METAL & STEEL WORK",
+      "item_no": "1",
+      "description": "Mild steel hollow section 50mm x 50mm x 2.3m thk x 6m (l)",
+      "price": {
+        "type": "fixed",
+        "value": 3611.93,
+        "currency": "MYR",
+        "raw": "RM3,611.93"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM3.61/kg"
+    },
+    {
+      "row_id": "materials-prices:K:2",
+      "section": "K",
+      "section_name": "METAL & STEEL WORK",
+      "item_no": "2",
+      "description": "Mild steel hollow section 75mm x 100mm x 2.3m thk x 6m (l)",
+      "price": {
+        "type": "fixed",
+        "value": 3671.85,
+        "currency": "MYR",
+        "raw": "RM3,671.85"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM3.67/kg"
+    },
+    {
+      "row_id": "materials-prices:K:3",
+      "section": "K",
+      "section_name": "METAL & STEEL WORK",
+      "item_no": "3",
+      "description": "Mild steel plate; 6mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 2600.0,
+        "currency": "MYR",
+        "raw": "RM2,600.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM2.60/kg"
+    },
+    {
+      "row_id": "materials-prices:K:4",
+      "section": "K",
+      "section_name": "METAL & STEEL WORK",
+      "item_no": "4",
+      "description": "Structural steel beams, columns of various sizes and the like",
+      "price": {
+        "type": "fixed",
+        "value": 3800.0,
+        "currency": "MYR",
+        "raw": "RM3,800.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne",
+      "remarks": "RM3.80/kg"
+    },
+    {
+      "row_id": "materials-prices:L:1",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "1",
+      "description": "Metal door frame; zincalum 1000mm (w) x 2000mm",
+      "price": {
+        "type": "fixed",
+        "value": 13.6,
+        "currency": "MYR",
+        "raw": "RM13.60"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:L:2",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "2",
+      "description": "Ditto; zincalmeal; 1.0mm (thk); 1000mm (w) x 2000mm (h)",
+      "price": {
+        "type": "fixed",
+        "value": 9.6,
+        "currency": "MYR",
+        "raw": "RM9.60"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:L:3",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "3",
+      "description": "Ditto; E.G electronic - galvanized; 1.0mm (thk); 1000mm (w) x 2000mm (h)",
+      "price": {
+        "type": "fixed",
+        "value": 11.6,
+        "currency": "MYR",
+        "raw": "RM11.60"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:L:4",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "4",
+      "description": "One-hour fire rated metal door frame; 900mm (w) x 2130mm (h)",
+      "price": {
+        "type": "fixed",
+        "value": 34.4,
+        "currency": "MYR",
+        "raw": "RM34.40"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:L:5",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "5",
+      "description": "Ditto; 1000mm (w) x 2130mm (h)",
+      "price": {
+        "type": "fixed",
+        "value": 30.94,
+        "currency": "MYR",
+        "raw": "RM30.94"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:L:6",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "6",
+      "description": "Two-hour fire rated metal door frame; 1200mm (w) x 2130mm (h)",
+      "price": {
+        "type": "fixed",
+        "value": 13.89,
+        "currency": "MYR",
+        "raw": "RM13.89"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:L:7",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "7",
+      "description": "One-hour fire resistant doorset including hinges; 900mm (w) x 2130mm (h) single leaf",
+      "price": {
+        "type": "fixed",
+        "value": 260.82,
+        "currency": "MYR",
+        "raw": "RM260.82"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:L:8",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "8",
+      "description": "Ditto; 1000mm (w) x 2130mm (h) single leaf",
+      "price": {
+        "type": "fixed",
+        "value": 244.13,
+        "currency": "MYR",
+        "raw": "RM244.13"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:L:9",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "9",
+      "description": "Ditto; 1200mm (w) x 2130mm (h) double leaf",
+      "price": {
+        "type": "fixed",
+        "value": 309.07,
+        "currency": "MYR",
+        "raw": "RM309.07"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:L:10",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "10",
+      "description": "Ditto; 2000mm (w) x 2130mm (h) double leaf",
+      "price": {
+        "type": "fixed",
+        "value": 242.72,
+        "currency": "MYR",
+        "raw": "RM242.72"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:L:11",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "11",
+      "description": "Ditto; 2400mm (w) x 2430mm (h) double leaf",
+      "price": {
+        "type": "fixed",
+        "value": 214.33,
+        "currency": "MYR",
+        "raw": "RM214.33"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:L:12",
+      "section": "L",
+      "section_name": "DOOR",
+      "item_no": "12",
+      "description": "Two-hour fire-resistant door set including hinges; 1200mm (w) x 2130mm (h) double leaf",
+      "price": {
+        "type": "fixed",
+        "value": 435.44,
+        "currency": "MYR",
+        "raw": "RM435.44"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:M:1",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "1",
+      "description": "Ceiling cemboard 1220 x 2440 x 8mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 48.5,
+        "currency": "MYR",
+        "raw": "RM48.50"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM16.29/m2"
+    },
+    {
+      "row_id": "materials-prices:M:2",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "2",
+      "description": "Ditto; 10mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 55.9,
+        "currency": "MYR",
+        "raw": "RM55.90"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM18.78/m2"
+    },
+    {
+      "row_id": "materials-prices:M:3",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "3",
+      "description": "Ditto; 12mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 65.0,
+        "currency": "MYR",
+        "raw": "RM65.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM21.84/m2"
+    },
+    {
+      "row_id": "materials-prices:M:4",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "4",
+      "description": "Ditto; 18mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 97.6,
+        "currency": "MYR",
+        "raw": "RM97.60"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM32.79/m2"
+    },
+    {
+      "row_id": "materials-prices:M:5",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "5",
+      "description": "Ditto; 20mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 105.3,
+        "currency": "MYR",
+        "raw": "RM105.30"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM35.37/m2"
+    },
+    {
+      "row_id": "materials-prices:M:6",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "6",
+      "description": "Ditto; 24mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 124.1,
+        "currency": "MYR",
+        "raw": "RM124.10"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM41.69/m2"
+    },
+    {
+      "row_id": "materials-prices:M:7",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "7",
+      "description": "Ditto; 30mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 152.9,
+        "currency": "MYR",
+        "raw": "RM152.90"
+      },
+      "unit": "each",
+      "unit_raw": "Piece",
+      "remarks": "RM51.36/m2"
+    },
+    {
+      "row_id": "materials-prices:M:8",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "8",
+      "description": "UAC ceiling board, 3.2mm thk; 2' x 4'",
+      "price": {
+        "type": "fixed",
+        "value": 3.6,
+        "currency": "MYR",
+        "raw": "RM3.60"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:M:9",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "9",
+      "description": "Ceiling beading (meranti) 12mm x 32mm x 7' up",
+      "price": {
+        "type": "fixed",
+        "value": 2.1,
+        "currency": "MYR",
+        "raw": "RM2.10"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:M:10",
+      "section": "M",
+      "section_name": "CEILING BOARD",
+      "item_no": "10",
+      "description": "Acoustic mineral fibre board, 15mm thick; 2' x 4'",
+      "price": {
+        "type": "fixed",
+        "value": 23.5,
+        "currency": "MYR",
+        "raw": "RM23.50"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:N:1",
+      "section": "N",
+      "section_name": "METAL ROOFING SHEET",
+      "item_no": "1",
+      "description": "Metal roof sheet, colorbond; 0.47mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 40.0,
+        "currency": "MYR",
+        "raw": "RM40.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:N:2",
+      "section": "N",
+      "section_name": "METAL ROOFING SHEET",
+      "item_no": "2",
+      "description": "Corrugated zinc sheet (2' x 10')",
+      "price": {
+        "type": "fixed",
+        "value": 8.62,
+        "currency": "MYR",
+        "raw": "RM8.62"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:O:1",
+      "section": "O",
+      "section_name": "PREMIX",
+      "item_no": "1",
+      "description": "Asphaltic concrete binder course (ACBC)",
+      "price": {
+        "type": "fixed",
+        "value": 133.0,
+        "currency": "MYR",
+        "raw": "RM133.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:O:2",
+      "section": "O",
+      "section_name": "PREMIX",
+      "item_no": "2",
+      "description": "Asphaltic concrete wearing course (ACWC) -14 (granite stone)",
+      "price": {
+        "type": "fixed",
+        "value": 184.0,
+        "currency": "MYR",
+        "raw": "RM184.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:O:3",
+      "section": "O",
+      "section_name": "PREMIX",
+      "item_no": "3",
+      "description": "Asphaltic concrete wearing (ACW) -20 (granite",
+      "price": {
+        "type": "fixed",
+        "value": 179.0,
+        "currency": "MYR",
+        "raw": "RM179.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:O:4",
+      "section": "O",
+      "section_name": "PREMIX",
+      "item_no": "4",
+      "description": "Premix ACB 28",
+      "price": {
+        "type": "fixed",
+        "value": 179.0,
+        "currency": "MYR",
+        "raw": "RM179.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:O:5",
+      "section": "O",
+      "section_name": "PREMIX",
+      "item_no": "5",
+      "description": "Bituminous road base ACB 28",
+      "price": {
+        "type": "fixed",
+        "value": 174.0,
+        "currency": "MYR",
+        "raw": "RM174.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:O:6",
+      "section": "O",
+      "section_name": "PREMIX",
+      "item_no": "6",
+      "description": "Tack coat RS - 1K (200 litre/drum",
+      "price": {
+        "type": "fixed",
+        "value": 300.0,
+        "currency": "MYR",
+        "raw": "RM300.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:O:7",
+      "section": "O",
+      "section_name": "PREMIX",
+      "item_no": "7",
+      "description": "Prime coat SS - 1K (200 litre/drum)",
+      "price": {
+        "type": "fixed",
+        "value": 330.0,
+        "currency": "MYR",
+        "raw": "RM330.00"
+      },
+      "unit": "t",
+      "unit_raw": "Tonne"
+    },
+    {
+      "row_id": "materials-prices:P:1",
+      "section": "P",
+      "section_name": "DRAIN",
+      "item_no": "1",
+      "description": "9\" x 41/2\" x 30\" (l) (225 x 760mm) precast concrete drain half round",
+      "price": {
+        "type": "fixed",
+        "value": 5.3,
+        "currency": "MYR",
+        "raw": "RM5.30"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:P:2",
+      "section": "P",
+      "section_name": "DRAIN",
+      "item_no": "2",
+      "description": "Precast reinforced concrete U-shape drain without dry weather flow (600mm(w) x 600mm(h) x 1m (l))",
+      "price": {
+        "type": "fixed",
+        "value": 102.0,
+        "currency": "MYR",
+        "raw": "RM102.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:P:3",
+      "section": "P",
+      "section_name": "DRAIN",
+      "item_no": "3",
+      "description": "Precast reinforced concrete U-shape drain without dry weather flow (900mm(w) x 900mm(h) x 1m (l))",
+      "price": {
+        "type": "fixed",
+        "value": 162.0,
+        "currency": "MYR",
+        "raw": "RM162.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:1",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "1",
+      "description": "200mm x 200mm x 6m M/S Pointed",
+      "price": {
+        "type": "fixed",
+        "value": 205.0,
+        "currency": "MYR",
+        "raw": "RM205.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:2",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "2",
+      "description": "200mm x 200mm x 6m Extension",
+      "price": {
+        "type": "fixed",
+        "value": 225.0,
+        "currency": "MYR",
+        "raw": "RM225.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:3",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "3",
+      "description": "250mm x 250mm x 12m M/S Pointed",
+      "price": {
+        "type": "fixed",
+        "value": 630.0,
+        "currency": "MYR",
+        "raw": "RM630.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:4",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "4",
+      "description": "250mm x 250mm x 12m Extension",
+      "price": {
+        "type": "fixed",
+        "value": 673.0,
+        "currency": "MYR",
+        "raw": "RM673.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:5",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "5",
+      "description": "250mm x 250mm x 9m Extension",
+      "price": {
+        "type": "fixed",
+        "value": 553.0,
+        "currency": "MYR",
+        "raw": "RM553.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:6",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "6",
+      "description": "250mm x 250mm x 6m Extension",
+      "price": {
+        "type": "fixed",
+        "value": 453.0,
+        "currency": "MYR",
+        "raw": "RM453.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:7",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "7",
+      "description": "300mm x 300mm x 12m M/S Pointed",
+      "price": {
+        "type": "fixed",
+        "value": 854.0,
+        "currency": "MYR",
+        "raw": "RM854.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:8",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "8",
+      "description": "300mm x 300mm x 12m Extension",
+      "price": {
+        "type": "fixed",
+        "value": 899.0,
+        "currency": "MYR",
+        "raw": "RM899.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:9",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "9",
+      "description": "300mm x 300mm x 9m Extension",
+      "price": {
+        "type": "fixed",
+        "value": 749.0,
+        "currency": "MYR",
+        "raw": "RM749.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:Q:10",
+      "section": "Q",
+      "section_name": "REINFORCED CONCRETE PILE",
+      "item_no": "10",
+      "description": "300mm x 300mm x 6m Extension",
+      "price": {
+        "type": "fixed",
+        "value": 619.0,
+        "currency": "MYR",
+        "raw": "RM619.00"
+      },
+      "unit": "each",
+      "unit_raw": "Piece"
+    },
+    {
+      "row_id": "materials-prices:R:1",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "1",
+      "description": "PVC Corner Bead; 2.5 meter length",
+      "price": {
+        "type": "fixed",
+        "value": 0.3,
+        "currency": "MYR",
+        "raw": "RM0.30"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "materials-prices:R:2",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "2",
+      "description": "Polythene sheet; 12' x 180' x 0.25mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 150.0,
+        "currency": "MYR",
+        "raw": "RM150.00"
+      },
+      "unit": "roll",
+      "unit_raw": "Rolls",
+      "remarks": "RM0.75/m2"
+    },
+    {
+      "row_id": "materials-prices:R:3",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "3",
+      "description": "Ditto; 12' x 180' x 0.125mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 90.0,
+        "currency": "MYR",
+        "raw": "RM90.00"
+      },
+      "unit": "roll",
+      "unit_raw": "Rolls",
+      "remarks": "RM0.45/m2"
+    },
+    {
+      "row_id": "materials-prices:R:4",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "4",
+      "description": "Geotextile; 4m x 250m",
+      "price": {
+        "type": "fixed",
+        "value": 2100.0,
+        "currency": "MYR",
+        "raw": "RM2,100.00"
+      },
+      "unit": "roll",
+      "unit_raw": "Rolls",
+      "remarks": "RM2.10/m2"
+    },
+    {
+      "row_id": "materials-prices:R:5",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "5",
+      "description": "Polypropylene geogrid membrane for soft ground",
+      "price": {
+        "type": "fixed",
+        "value": 8.0,
+        "currency": "MYR",
+        "raw": "RM8.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:R:6",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "6",
+      "description": "HDPE geomembrane 1.5mm thick lining",
+      "price": {
+        "type": "fixed",
+        "value": 20.0,
+        "currency": "MYR",
+        "raw": "RM20.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "materials-prices:R:7",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "7",
+      "description": "PVC waterstop 250mm wide x 15m long",
+      "price": {
+        "type": "fixed",
+        "value": 375.0,
+        "currency": "MYR",
+        "raw": "RM375.00"
+      },
+      "unit": "roll",
+      "unit_raw": "Roll"
+    },
+    {
+      "row_id": "materials-prices:R:8",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "8",
+      "description": "Flexible cement based waterproofing coating (30kg/set); ABA 59M",
+      "price": {
+        "type": "fixed",
+        "value": 195.0,
+        "currency": "MYR",
+        "raw": "RM195.00"
+      },
+      "unit": "set",
+      "unit_raw": "Set"
+    },
+    {
+      "row_id": "materials-prices:R:9",
+      "section": "R",
+      "section_name": "MISCELLANEOUS",
+      "item_no": "9",
+      "description": "Liquid-applied moisture cure polyurethane waterproofing membrane (20 litre/pail)",
+      "price": {
+        "type": "fixed",
+        "value": 435.0,
+        "currency": "RM",
+        "raw": "RM 435.00"
+      },
+      "unit": "pail",
+      "unit_raw": "Pail",
+      "alt_prices": [
+        {
+          "price": {
+            "type": "fixed",
+            "value": 145.0,
+            "currency": "SGD",
+            "raw": "SGD 145.00"
+          }
+        }
+      ],
+      "remarks": "Approximately 0.8kg - 1kg per m2 per coat"
+    }
+  ]
+}

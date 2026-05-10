@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+  "title": "QS Data Price Table",
+  "description": "Schema for Malaysian construction cost price table documents from quantitysurveyoronline.com.my",
+  "type": "object",
+  "required": ["schema_version", "category", "data_type", "data_date", "extracted_at", "currency", "rows"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version string, e.g. '1.0.0'"
+    },
+    "category": {
+      "type": "string",
+      "description": "Category slug matching categories.json"
+    },
+    "data_type": {
+      "const": "price_table",
+      "description": "Discriminator field"
+    },
+    "source": {
+      "type": "object",
+      "description": "Source provenance information",
+      "properties": {
+        "url": {"type": "string"},
+        "image": {"type": "string"},
+        "ocr_engine": {"type": "string"}
+      }
+    },
+    "data_date": {
+      "type": "string",
+      "description": "Date of the data (YYYY-MM-DD) or 'static' for undated reference data"
+    },
+    "extracted_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 datetime when data was extracted"
+    },
+    "extraction": {
+      "type": "object",
+      "description": "Extraction metadata",
+      "properties": {
+        "ocr_engine": {"type": "string"},
+        "cross_check_confidence": {"type": "number"}
+      }
+    },
+    "currency": {
+      "type": "string",
+      "description": "Default currency code, e.g. 'MYR'"
+    },
+    "unit_system": {
+      "type": "string",
+      "enum": ["metric", "imperial", "mixed"]
+    },
+    "summary": {
+      "type": "string",
+      "description": "Human-readable summary of this dataset"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "row_count": {
+      "type": "integer",
+      "description": "Number of data rows (excluding section headers)"
+    },
+    "quality_flags": {
+      "type": "array",
+      "description": "List of data quality warnings",
+      "items": {"type": "string"}
+    },
+    "rows": {
+      "type": "array",
+      "description": "Price table rows",
+      "items": {
+        "type": "object",
+        "required": ["row_id", "section", "item_no", "description"],
+        "properties": {
+          "row_id": {
+            "type": "string",
+            "description": "Unique row identifier: '{category}:{section}:{item_no}'"
+          },
+          "section": {
+            "type": "string",
+            "description": "Section code letter, e.g. 'A', 'B'. '_' for sectionless rows."
+          },
+          "section_name": {
+            "type": "string",
+            "description": "Human-readable section name"
+          },
+          "item_no": {
+            "type": "string",
+            "description": "Item number within section, e.g. '1', '3a', '3b'"
+          },
+          "description": {
+            "type": "string",
+            "description": "Full item description"
+          },
+          "price": {
+            "type": "object",
+            "description": "Structured price information",
+            "properties": {
+              "type": {
+                "enum": ["fixed", "range", "formula", "item", "tbd"],
+                "description": "fixed=single value, range=min-max, formula=% of contract sum, item=lump item, tbd=no price given"
+              },
+              "value": {
+                "type": "number",
+                "description": "Price value for fixed type"
+              },
+              "min": {
+                "type": "number",
+                "description": "Minimum price for range type"
+              },
+              "max": {
+                "type": "number",
+                "description": "Maximum price for range type"
+              },
+              "currency": {
+                "type": "string",
+                "description": "Currency code for this price"
+              },
+              "formula": {
+                "type": "string",
+                "description": "Formula string for formula type, e.g. '0.125% of contract_sum'"
+              },
+              "raw": {
+                "type": "string",
+                "description": "Raw price string as it appeared in source"
+              }
+            }
+          },
+          "unit": {
+            "type": "string",
+            "description": "Canonical unit from vocab/units.json"
+          },
+          "unit_raw": {
+            "type": "string",
+            "description": "Raw unit string as it appeared in source"
+          },
+          "alt_prices": {
+            "type": "array",
+            "description": "Alternative prices (e.g. SGD price, monthly rate alongside daily rate)",
+            "items": {
+              "type": "object",
+              "properties": {
+                "price": {"type": "object"},
+                "unit": {"type": "string"},
+                "unit_raw": {"type": "string"}
+              }
+            }
+          },
+          "remarks": {
+            "type": "string",
+            "description": "Remarks or notes from the source"
+          },
+          "needs_review": {
+            "type": "boolean",
+            "description": "True if this row had parsing issues or ambiguous data"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,875 @@
+{
+  "schema_version": "1.0.0",
+  "$schema": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
+  "category": "all-in-rates-architecture",
+  "data_type": "price_table",
+  "source": {
+    "image": "all-in-rate-archi-6-3-26_orig.png",
+    "url": "https://quantitysurveyoronline.com.my/all-in-rates-architecture.html"
+  },
+  "data_date": "2026-03-06",
+  "extracted_at": "2026-05-09T23:51:29Z",
+  "extraction": {},
+  "currency": "MYR",
+  "unit_system": "metric",
+  "row_count": 57,
+  "quality_flags": [],
+  "rows": [
+    {
+      "row_id": "all-in-rates-architecture:A:1",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "1",
+      "description": "115mm thick brickwall in cement & sand brick reinforced with expanded metal brickwork reinforcement at every 4th course",
+      "price": {
+        "type": "fixed",
+        "value": 43.6,
+        "currency": "MYR",
+        "raw": "RM43.60"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:A:2",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "2",
+      "description": "230mm thick brickwall in cement & sand brick reinforced with expanded metal brickwork reinforcement at every 4th course",
+      "price": {
+        "type": "fixed",
+        "value": 87.1,
+        "currency": "MYR",
+        "raw": "RM87.10"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:A:3",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "3",
+      "description": "115mm thick brickwall in clay common brick reinforced with expanded metal brickwork reinforcement at every 4th course",
+      "price": {
+        "type": "fixed",
+        "value": 56.0,
+        "currency": "MYR",
+        "raw": "RM56.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:A:4",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "4",
+      "description": "230mm thick brickwall in clay common brick reinforced with expanded metal brickwork reinforcement at every 4th course",
+      "price": {
+        "type": "fixed",
+        "value": 112.0,
+        "currency": "MYR",
+        "raw": "RM112.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:A:5",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "5",
+      "description": "450mm thick brickwall in clay common brick reinforced with expanded metal brickwork reinforcement at every 4th course",
+      "price": {
+        "type": "fixed",
+        "value": 219.1,
+        "currency": "MYR",
+        "raw": "RM219.10"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:A:6",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "6",
+      "description": "Supply and install 100mm thick lightweight AAC block 200mm x 600mm using approved thin bed adhesive, including setting out works, damp proof course, wall tie, fibre mesh, fill up gaps at sides and top edges and all necessary tools to the completion of blockwall",
+      "price": {
+        "type": "fixed",
+        "value": 54.1,
+        "currency": "MYR",
+        "raw": "RM54.10"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:A:7",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "7",
+      "description": "Supply and install 125mm thick lightweight AAC block 200mm x 600mm using approved thin bed adhesive, including setting out works, damp proof course, wall tie, fibre mesh, fill up gaps at sides and top edges and all necessary tools to the completion of blockwall",
+      "price": {
+        "type": "fixed",
+        "value": 65.7,
+        "currency": "MYR",
+        "raw": "RM65.70"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:A:8",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "8",
+      "description": "Supply and install 150mm thick lightweight AAC block 200mm x 600mm using approved thin bed adhesive, including setting out works, damp proof course, wall tie, fibre mesh, fill up gaps at sides and top edges and all necessary tools to the completion of blockwall",
+      "price": {
+        "type": "fixed",
+        "value": 78.8,
+        "currency": "MYR",
+        "raw": "RM78.80"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:A:9",
+      "section": "A",
+      "section_name": "BRICKWALL & LIGHTWEIGHT BLOCKWALL",
+      "item_no": "9",
+      "description": "Supply and install 200mm thick lightweight AAC block 200mm x 600mm using approved thin bed adhesive, including setting out works, damp proof course, wall tie, fibre mesh, fill up gaps at sides and top edges and all necessary tools to the completion of blockwall",
+      "price": {
+        "type": "fixed",
+        "value": 101.9,
+        "currency": "MYR",
+        "raw": "RM101.90"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:B:1",
+      "section": "B",
+      "section_name": "PAINTING",
+      "item_no": "1",
+      "description": "Prepare and apply 1 undercoat and 2 finishing coats of emulsion paint to plastered surface internally",
+      "price": {
+        "type": "fixed",
+        "value": 3.67,
+        "currency": "MYR",
+        "raw": "RM3.67"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:B:2",
+      "section": "B",
+      "section_name": "PAINTING",
+      "item_no": "2",
+      "description": "Prepare and apply 1 undercoat and 2 finishing coats of emulsion paint weather bond to plastered surface externally",
+      "price": {
+        "type": "fixed",
+        "value": 7.14,
+        "currency": "MYR",
+        "raw": "RM7.14"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:B:3",
+      "section": "B",
+      "section_name": "PAINTING",
+      "item_no": "3",
+      "description": "Prepare and apply 1 undercoat and 2 finishing coats of enamel paint to metal/ timber surface, not exceeding 300mm girth",
+      "price": {
+        "type": "fixed",
+        "value": 2.31,
+        "currency": "MYR",
+        "raw": "RM2.31"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "all-in-rates-architecture:B:4",
+      "section": "B",
+      "section_name": "PAINTING",
+      "item_no": "4",
+      "description": "Prepare and apply 1 undercoat and 2 finishing coats of enamel paint to metal/ timber surface, exceeding 300mm girth",
+      "price": {
+        "type": "fixed",
+        "value": 4.63,
+        "currency": "MYR",
+        "raw": "RM4.63"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "all-in-rates-architecture:B:5",
+      "section": "B",
+      "section_name": "PAINTING",
+      "item_no": "5",
+      "description": "Prepare and apply 1 undercoat of Alkaline Resisting Wall Sealer and 2 finishing coats of 4 season acrylic finish to plastered surface",
+      "price": {
+        "type": "fixed",
+        "value": 9.26,
+        "currency": "MYR",
+        "raw": "RM9.26"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:1",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "1",
+      "description": "Supply labour and materials to lay 200 x 200mm homogeneous tiles to floor (any grade, size, colour and pattern) jointed at 5mm wide and pointed with approved grout including minimum 20mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 41.81,
+        "currency": "MYR",
+        "raw": "RM41.81"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:2",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "2",
+      "description": "Supply labour and materials to lay 300 x 300mm homogeneous tiles to floor (any grade, size, colour and pattern) jointed at 5mm wide and pointed with approved grout including minimum 20mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 63.64,
+        "currency": "MYR",
+        "raw": "RM63.64"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:3",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "3",
+      "description": "Supply labour and materials to lay 200x200mm ceramic tiles to floor (any grade, size, colour and pattern) jointed at 5mm wide and pointed with approved grout including minimum 20mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 54.59,
+        "currency": "MYR",
+        "raw": "RM54.59"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:4",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "4",
+      "description": "Supply labour and materials to lay 600 x 300mm porcelain tiles to floor (any grade, size, colour and pattern) jointed at 5mm wide and pointed with approved grout including minimum 20mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 75.0,
+        "currency": "MYR",
+        "raw": "RM75.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:5",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "5",
+      "description": "Supply labour and materials to lay 600 x 600mm porcelain tiles to floor (any grade, size, colour and pattern) jointed at 5mm wide and pointed with approved grout including minimum 20mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 123.41,
+        "currency": "MYR",
+        "raw": "RM123.41"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:6",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "6",
+      "description": "Supply labour and materials to lay 18mm thick polished marble including waterproofing impregnator and bedded on screed (measured separately) with adhesive",
+      "price": {
+        "type": "range",
+        "min": 265.0,
+        "max": 305.0,
+        "currency": "MYR",
+        "raw": "RM265 – RM305"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:7",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "7",
+      "description": "Supply labour and materials to lay cobble stone tiles 100 x 100mm as specified to floor (any grade, colour and pattern) jointed at 8mm wide and pointed with approved grout including minimum 50mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 132.92,
+        "currency": "MYR",
+        "raw": "RM132.92"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:8",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "8",
+      "description": "Supply labour and materials to lay Vinyl tiles 305 x 305mm to floor (Imperial Series to any colour and pattern) jointed at 5mm wide with approved adhesive including minimum 25mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 51.2,
+        "currency": "MYR",
+        "raw": "RM51.20"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:9",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "9",
+      "description": "Supply labour for laying interlocking pavers to floor (any grade, size, colour and pattern) laid on and including 225 mm thick hardcore and 50 mm thick sand blinding",
+      "price": {
+        "type": "fixed",
+        "value": 44.49,
+        "currency": "MYR",
+        "raw": "RM44.49"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:10",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "10",
+      "description": "Supply and lay heavy duty carpet with underlay to floor including carpet adhesive but not including cement and sand backing screed",
+      "price": {
+        "type": "fixed",
+        "value": 96.58,
+        "currency": "MYR",
+        "raw": "RM96.58"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:11",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "11",
+      "description": "Supply labour for laying imprint concrete to floor (any grade, size, colour and pattern) including hardener and 2 coats of sealer",
+      "price": {
+        "type": "fixed",
+        "value": 27.26,
+        "currency": "MYR",
+        "raw": "RM27.26"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:C:12",
+      "section": "C",
+      "section_name": "FLOOR FINISHES",
+      "item_no": "12",
+      "description": "Supply and apply 5mm thick skim coat to sides and soffit of beam/ slab",
+      "price": {
+        "type": "fixed",
+        "value": 8.5,
+        "currency": "MYR",
+        "raw": "RM8.50"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:D:1",
+      "section": "D",
+      "section_name": "FLOOR SCREED & COATINGS",
+      "item_no": "1",
+      "description": "25mm thick cement and sand (1:3) screed rendering to ground floor trowelled to a smooth finish including coved and rounded angles",
+      "price": {
+        "type": "fixed",
+        "value": 23.1,
+        "currency": "MYR",
+        "raw": "RM23.10"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:D:2",
+      "section": "D",
+      "section_name": "FLOOR SCREED & COATINGS",
+      "item_no": "2",
+      "description": "Prepare and apply PU epoxy coating Mackincote PU54 to floor rolled to a smooth finish including coved and rounded angles",
+      "price": {
+        "type": "fixed",
+        "value": 22.73,
+        "currency": "MYR",
+        "raw": "RM22.73"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:D:3",
+      "section": "D",
+      "section_name": "FLOOR SCREED & COATINGS",
+      "item_no": "3",
+      "description": "5mm thick acrylic polymer cementitious screed Bondseal rendering to ground floor trowelled to a smooth finish including coved and rounded angles",
+      "price": {
+        "type": "fixed",
+        "value": 27.26,
+        "currency": "MYR",
+        "raw": "RM27.26"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:D:4",
+      "section": "D",
+      "section_name": "FLOOR SCREED & COATINGS",
+      "item_no": "4",
+      "description": "Prepare and apply waterproofing coating to floor rolled to a smooth finish",
+      "price": {
+        "type": "fixed",
+        "value": 28.0,
+        "currency": "MYR",
+        "raw": "RM28.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:E:1",
+      "section": "E",
+      "section_name": "CEILING FINISHES",
+      "item_no": "1",
+      "description": "Supply and apply 3mm thick skim coat (Smooth finish) to soffit of concrete",
+      "price": {
+        "type": "fixed",
+        "value": 6.6,
+        "currency": "MYR",
+        "raw": "RM6.60"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:E:2",
+      "section": "E",
+      "section_name": "CEILING FINISHES",
+      "item_no": "2",
+      "description": "Supply labour and materials to lay 3.2mm thick asbestos flat sheet to ceiling suspended by and including metal ceiling grid",
+      "price": {
+        "type": "fixed",
+        "value": 27.75,
+        "currency": "MYR",
+        "raw": "RM27.75"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:E:3",
+      "section": "E",
+      "section_name": "CEILING FINISHES",
+      "item_no": "3",
+      "description": "Supply labour and materials to lay 15mm thick acoustic mineral fibre board to ceiling suspended by and including metal ceiling grid",
+      "price": {
+        "type": "fixed",
+        "value": 44.73,
+        "currency": "MYR",
+        "raw": "RM44.73"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:E:4",
+      "section": "E",
+      "section_name": "CEILING FINISHES",
+      "item_no": "4",
+      "description": "Supply labour and materials to lay 15mm thick acoustic mineral fibre board fixed on & including galvanized steel suspension ceiling",
+      "price": {
+        "type": "fixed",
+        "value": 50.68,
+        "currency": "MYR",
+        "raw": "RM50.68"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:E:5",
+      "section": "E",
+      "section_name": "CEILING FINISHES",
+      "item_no": "5",
+      "description": "9mm thick 600x1200 gypsum plasterboard fixed on & including suspended ceiling tee",
+      "price": {
+        "type": "fixed",
+        "value": 23.14,
+        "currency": "MYR",
+        "raw": "RM23.14"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:E:6",
+      "section": "E",
+      "section_name": "CEILING FINISHES",
+      "item_no": "6",
+      "description": "9mm thick plasterboard fixed on and including galvanized steel suspension ceiling",
+      "price": {
+        "type": "fixed",
+        "value": 31.34,
+        "currency": "MYR",
+        "raw": "RM31.34"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:E:7",
+      "section": "E",
+      "section_name": "CEILING FINISHES",
+      "item_no": "7",
+      "description": "Supply and install 9mm thick approved moisture resistant plasterboard ceiling including aluminium suspension tee system levelling and setting out symmetrically from centre of the room and necessary trimming and cutting for light points, access panels etc.; height n.e. 3.0m high",
+      "price": {
+        "type": "fixed",
+        "value": 38.0,
+        "currency": "MYR",
+        "raw": "RM38.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:E:8",
+      "section": "E",
+      "section_name": "CEILING FINISHES",
+      "item_no": "8",
+      "description": "Supply and install 9mm thick approved moisture resistant plasterboard ceiling including aluminium suspension tee system levelling and setting out symmetrically from centre of the room and necessary trimming and cutting for light points, access panels etc.; height exceeding 9.0m but not exceeding 10.10m high",
+      "price": {
+        "type": "fixed",
+        "value": 48.0,
+        "currency": "MYR",
+        "raw": "RM48.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:F:1",
+      "section": "F",
+      "section_name": "WALL FINISHES",
+      "item_no": "1",
+      "description": "25mm thick cement and sand (1:3) rendering to wall in 3 coats trowelled to a smooth finish including coved and rounded angles",
+      "price": {
+        "type": "fixed",
+        "value": 30.4,
+        "currency": "MYR",
+        "raw": "RM30.40"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:F:2",
+      "section": "F",
+      "section_name": "WALL FINISHES",
+      "item_no": "2",
+      "description": "Supply and apply 5mm thick skim coat comprising 1 base coat and 1 finishing coat (smooth finish) to all internal RC wall surfaces (excluding surface to receive tiles) including preparation of surface to receive skim coat",
+      "price": {
+        "type": "fixed",
+        "value": 8.5,
+        "currency": "MYR",
+        "raw": "RM8.50"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:F:3",
+      "section": "F",
+      "section_name": "WALL FINISHES",
+      "item_no": "3",
+      "description": "Supply and apply 12mm thick AAC render (Sponge finish) to all external block wall/ RC structure surfaces (beams, columns, lintels and opening perimeter) including preparation of surface to receive render coat",
+      "price": {
+        "type": "fixed",
+        "value": 26.4,
+        "currency": "MYR",
+        "raw": "RM26.40"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:F:4",
+      "section": "F",
+      "section_name": "WALL FINISHES",
+      "item_no": "4",
+      "description": "Supply labour and materials to lay 300 x 300mm homogeneous tiles to wall (any grade, size, colour and pattern) jointed at 5mm wide and pointed with approved grout including minimum 20mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 65.64,
+        "currency": "MYR",
+        "raw": "RM65.64"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:F:5",
+      "section": "F",
+      "section_name": "WALL FINISHES",
+      "item_no": "5",
+      "description": "Supply labour and materials to lay 300 x 600mm ceramic tiles to wall (any grade, size, colour and pattern) jointed at 5mm wide and pointed with approved grout including minimum 20mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 48.53,
+        "currency": "MYR",
+        "raw": "RM48.53"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:F:6",
+      "section": "F",
+      "section_name": "WALL FINISHES",
+      "item_no": "6",
+      "description": "Supply labour and materials to lay 600 x 600mm porcelain tiles to wall (any grade, size, colour and pattern) jointed at 5mm wide and pointed with approved grout including minimum 20mm thick base screed",
+      "price": {
+        "type": "fixed",
+        "value": 75.46,
+        "currency": "MYR",
+        "raw": "RM75.46"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:G:1",
+      "section": "G",
+      "section_name": "METAL & STEEL WORK",
+      "item_no": "1",
+      "description": "Supply mild steel grating c/o frame with steel infill including painting with galvanizing of steel sizes as specified",
+      "price": {
+        "type": "fixed",
+        "value": 1101.36,
+        "currency": "MYR",
+        "raw": "RM1,101.36"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:G:2",
+      "section": "G",
+      "section_name": "METAL & STEEL WORK",
+      "item_no": "2",
+      "description": "Supply and install mild steel balcony railing 1200mm high constructed of 50mm x 75mm x 1.2mm thick mild steel rectangular hollow section as top handrail; 38mm x 38mm x 1.2mm thick mild steel hollow section as baluster with bottom end of baluster welded to mild steel plate and bolted to floor slab with 4 Nos. approved expansion bolts; infilled vertically between balusters with 25mm x 25mm x 1.2mm thick mild steel square hollow section at 85mm centres and all framed, welded and fixed into position including all necessary bends, angles and closing all open ends complete with red oxide paint to all expored metal work",
+      "price": {
+        "type": "fixed",
+        "value": 130.0,
+        "currency": "MYR",
+        "raw": "RM130.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:G:3",
+      "section": "G",
+      "section_name": "METAL & STEEL WORK",
+      "item_no": "3",
+      "description": "Supply and install anti-climb fence including 50mm x 150mm x 150mm x 5mm diameter x 1.2m height supported with 60mm diameter post at 2400mm centres and fixed to concrete slab",
+      "price": {
+        "type": "fixed",
+        "value": 143.0,
+        "currency": "MYR",
+        "raw": "RM143.00"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "all-in-rates-architecture:G:4",
+      "section": "G",
+      "section_name": "METAL & STEEL WORK",
+      "item_no": "4",
+      "description": "Supply & erect and hoist & fix in position the structural steel elements including 1 coat of MIO primer but excluding cranage",
+      "price": {
+        "type": "fixed",
+        "value": 5.75,
+        "currency": "MYR",
+        "raw": "RM5.75"
+      },
+      "unit": "kg",
+      "unit_raw": "KG"
+    },
+    {
+      "row_id": "all-in-rates-architecture:H:1",
+      "section": "H",
+      "section_name": "ROOFING",
+      "item_no": "1",
+      "description": "Supply labour and materials to lay Interlocking Concrete Roof Tiles size 420 x 330 x 30mm including timber battens 50 x 25mm",
+      "price": {
+        "type": "fixed",
+        "value": 36.65,
+        "currency": "MYR",
+        "raw": "RM36.65"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:H:2",
+      "section": "H",
+      "section_name": "ROOFING",
+      "item_no": "2",
+      "description": "Supply labour and materials to lay Interlocking Clay Roof Tiles size 420 x 330 x 30mm including timber battens 50 x 25mm",
+      "price": {
+        "type": "fixed",
+        "value": 60.42,
+        "currency": "MYR",
+        "raw": "RM60.42"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:H:3",
+      "section": "H",
+      "section_name": "ROOFING",
+      "item_no": "3",
+      "description": "Supply labour and materials to lay 0.47mm thick metal roof sheet; colorbond",
+      "price": {
+        "type": "fixed",
+        "value": 45.0,
+        "currency": "MYR",
+        "raw": "RM45.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:H:4",
+      "section": "H",
+      "section_name": "ROOFING",
+      "item_no": "4",
+      "description": "Supply labour and materials to lay 1250 x 48000 x 0.125mm thick aluminium foil",
+      "price": {
+        "type": "fixed",
+        "value": 4.13,
+        "currency": "MYR",
+        "raw": "RM4.13"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:H:5",
+      "section": "H",
+      "section_name": "ROOFING",
+      "item_no": "5",
+      "description": "Supply labour and materials to lay 1200 x 7500 x 50mm thick Rockwool insulation (40 kg/m³)",
+      "price": {
+        "type": "fixed",
+        "value": 12.61,
+        "currency": "MYR",
+        "raw": "RM12.61"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:H:6",
+      "section": "H",
+      "section_name": "ROOFING",
+      "item_no": "6",
+      "description": "Supply labour and materials to fix roof flashing approximate 450mm overall girth; twice bent; well packed and bedded on cement and sand; one end fixed to brickwork and the other end dressed under roofing sheets; including pointing with approved bituminous sealant to water tightness",
+      "price": {
+        "type": "fixed",
+        "value": 28.0,
+        "currency": "MYR",
+        "raw": "RM28.00"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "all-in-rates-architecture:I:1",
+      "section": "I",
+      "section_name": "WATERPROOFING",
+      "item_no": "1",
+      "description": "Supply and lay damp proof membrane 0.25mm thick",
+      "price": {
+        "type": "fixed",
+        "value": 3.94,
+        "currency": "MYR",
+        "raw": "RM3.94"
+      },
+      "unit": "m",
+      "unit_raw": "M"
+    },
+    {
+      "row_id": "all-in-rates-architecture:I:2",
+      "section": "I",
+      "section_name": "WATERPROOFING",
+      "item_no": "2",
+      "description": "Supply and apply three coats of cementitious waterproofing system to bathroom floor including 25mm x 25mm angle fillets; in cement and sand (1:3); applied at the rate of minimum 1.0kg/m² per coat; including preparing substrate free from debris, oil, laitance, etc. and including working around scupper drain",
+      "price": {
+        "type": "fixed",
+        "value": 28.0,
+        "currency": "MYR",
+        "raw": "RM28.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    },
+    {
+      "row_id": "all-in-rates-architecture:I:3",
+      "section": "I",
+      "section_name": "WATERPROOFING",
+      "item_no": "3",
+      "description": "Supply and apply 1.10mm thick liquid applied waterproofing membrane system to R.C. flat roof including preparing substrate free from debris, oil, laitance, etc. but excluding protective screed in cement and sand (1:3) to R.C. flat roof and perimeter upturn; and excluding primer on top of protective screed; and including working around scupper drain, dressing around all rainwater downpipes, vent pipe outlets and any other protution through the waterproofing membrane",
+      "price": {
+        "type": "fixed",
+        "value": 42.0,
+        "currency": "MYR",
+        "raw": "RM42.00"
+      },
+      "unit": "m²",
+      "unit_raw": "M2"
+    }
+  ]
+}

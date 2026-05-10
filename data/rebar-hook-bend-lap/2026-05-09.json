@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "$schema": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+  "category": "rebar-hook-bend-lap",
+  "data_type": "reference_table",
+  "source": {
+    "image": "2487722_orig.jpg",
+    "url": "https://quantitysurveyoronline.com.my/rebar-hook-bend-lap.html",
+    "ocr_engine": ""
+  },
+  "data_date": "static",
+  "extracted_at": "2026-05-09T23:52:23Z",
+  "columns": [
+    {
+      "name": "steel_type",
+      "description": "mild_steel or high_yield"
+    },
+    {
+      "name": "bar_size_mm",
+      "unit": "mm",
+      "description": "Bar diameter"
+    },
+    {
+      "name": "measurement",
+      "description": "hook_allowance_mm, bend_allowance_mm, rebar_lapping_mm, tying_allowance_mm"
+    },
+    {
+      "name": "formula_multiplier",
+      "description": "Multiplier applied to D (e.g. 9 for hook allowance 9D)"
+    },
+    {
+      "name": "value_mm",
+      "unit": "mm",
+      "description": "Calculated minimum value in mm"
+    }
+  ],
+  "row_count": 0,
+  "quality_flags": [],
+  "rows": []
+}

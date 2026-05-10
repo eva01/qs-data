@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/strength_group_list.schema.json",
+  "title": "QS Data Strength Group List",
+  "description": "Schema for timber strength group classification data from quantitysurveyoronline.com.my",
+  "type": "object",
+  "required": ["schema_version", "category", "data_type", "data_date", "extracted_at", "rows"],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "data_type": {
+      "const": "strength_group_list"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "url": {"type": "string"},
+        "scraped_at": {"type": "string"}
+      }
+    },
+    "data_date": {
+      "type": "string",
+      "description": "Date of the data or 'static'"
+    },
+    "extracted_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "row_count": {
+      "type": "integer",
+      "description": "Number of strength groups"
+    },
+    "quality_flags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "rows": {
+      "type": "array",
+      "description": "One entry per strength group",
+      "items": {
+        "type": "object",
+        "required": ["group", "species"],
+        "properties": {
+          "group": {
+            "type": "string",
+            "description": "Strength group identifier, e.g. 'A', 'B', 'C', 'D'"
+          },
+          "species": {
+            "type": "array",
+            "description": "List of timber species in this group",
+            "items": {"type": "string"}
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

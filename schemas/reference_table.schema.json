@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
+  "title": "QS Data Reference Table",
+  "description": "Schema for static reference data tables from quantitysurveyoronline.com.my (no currency, no prices)",
+  "type": "object",
+  "required": ["schema_version", "category", "data_type", "data_date", "extracted_at", "rows"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version string, e.g. '1.0.0'"
+    },
+    "category": {
+      "type": "string",
+      "description": "Category slug matching categories.json"
+    },
+    "data_type": {
+      "const": "reference_table",
+      "description": "Discriminator field"
+    },
+    "source": {
+      "type": "object",
+      "description": "Source provenance information",
+      "properties": {
+        "url": {"type": "string"},
+        "image": {"type": "string"},
+        "ocr_engine": {"type": "string"}
+      }
+    },
+    "data_date": {
+      "type": "string",
+      "description": "Date of the data (YYYY-MM-DD) or 'static'"
+    },
+    "extracted_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 datetime when data was extracted"
+    },
+    "extraction": {
+      "type": "object",
+      "properties": {
+        "ocr_engine": {"type": "string"}
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "row_count": {
+      "type": "integer"
+    },
+    "quality_flags": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "columns": {
+      "type": "array",
+      "description": "Column definitions for this table",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "unit": {"type": "string"},
+          "description": {"type": "string"}
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "description": "Reference table rows. Schema varies by category — see columns field.",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "additionalProperties": false
+}
