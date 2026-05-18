@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-05-11T03:36:38.584676Z",
+  "generated_at": "2026-05-18T03:43:45.304232Z",
   "description": "Malaysian construction cost data scraped from quantitysurveyoronline.com.my. Includes all-in rates, labour, materials, plant, preliminaries, and reference tables.",
   "source": "https://quantitysurveyoronline.com.my",
   "currency_default": "MYR",
@@ -150,9 +150,11 @@
       "update_cadence": "static",
       "unit_system": "mixed",
       "data_date": "static",
-      "last_extracted_at": "2026-05-10T00:08:21Z",
-      "row_count": 17,
-      "quality_flags": [],
+      "last_extracted_at": "2026-05-18T03:43:21Z",
+      "row_count": 0,
+      "quality_flags": [
+        "unparsed_row: 'S/N' | 'No.'"
+      ],
       "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/reference_table.schema.json",
       "files": {
         "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/latest.json",
@@ -160,6 +162,11 @@
         "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/latest.md"
       },
       "snapshots": [
+        {
+          "date": "2016-05-26",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/2016-05-26.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/2016-05-26.md"
+        },
         {
           "date": "2026-05-09",
           "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/conversion-table/2026-05-09.json",
@@ -191,9 +198,9 @@
       "update_cadence": "monthly",
       "currency": "MYR",
       "unit_system": "metric",
-      "data_date": "2025-11-19",
-      "last_extracted_at": "2026-05-09T23:50:52Z",
-      "row_count": 44,
+      "data_date": "2016-05-26",
+      "last_extracted_at": "2026-05-18T03:42:59Z",
+      "row_count": 1,
       "quality_flags": [],
       "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
       "files": {
@@ -202,6 +209,11 @@
         "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/latest.md"
       },
       "snapshots": [
+        {
+          "date": "2016-05-26",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/2016-05-26.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/2016-05-26.md"
+        },
         {
           "date": "2025-11-19",
           "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/labour-rates/2025-11-19.json",
@@ -234,9 +246,9 @@
       "update_cadence": "monthly",
       "currency": "MYR",
       "unit_system": "metric",
-      "data_date": "2026-03-06",
-      "last_extracted_at": "2026-05-10T00:29:02Z",
-      "row_count": 190,
+      "data_date": "2016-05-26",
+      "last_extracted_at": "2026-05-18T03:42:56Z",
+      "row_count": 6,
       "quality_flags": [],
       "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
       "files": {
@@ -245,6 +257,11 @@
         "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/latest.md"
       },
       "snapshots": [
+        {
+          "date": "2016-05-26",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/2016-05-26.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/2016-05-26.md"
+        },
         {
           "date": "2026-03-06",
           "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/materials-prices/2026-03-06.json",
@@ -272,12 +289,10 @@
       "update_cadence": "monthly",
       "currency": "MYR",
       "unit_system": "metric",
-      "data_date": "2025-11-19",
-      "last_extracted_at": "2026-05-09T23:51:09Z",
-      "row_count": 63,
-      "quality_flags": [
-        "dual-unit with single price at plant-equipment-rates:B:8"
-      ],
+      "data_date": "2016-05-26",
+      "last_extracted_at": "2026-05-18T03:43:19Z",
+      "row_count": 7,
+      "quality_flags": [],
       "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
       "files": {
         "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/latest.json",
@@ -285,6 +300,11 @@
         "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/latest.md"
       },
       "snapshots": [
+        {
+          "date": "2016-05-26",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/2016-05-26.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/2016-05-26.md"
+        },
         {
           "date": "2025-11-19",
           "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/plant-equipment-rates/2025-11-19.json",
@@ -313,13 +333,10 @@
       "update_cadence": "monthly",
       "currency": "MYR",
       "unit_system": "metric",
-      "data_date": "2026-03-30",
-      "last_extracted_at": "2026-05-09T23:50:40Z",
-      "row_count": 43,
-      "quality_flags": [
-        "dual-unit with single price at preliminaries-rates:C:_1",
-        "dual-unit with single price at preliminaries-rates:C:_2"
-      ],
+      "data_date": "2016-05-26",
+      "last_extracted_at": "2026-05-18T03:42:47Z",
+      "row_count": 1,
+      "quality_flags": [],
       "schema_url": "https://raw.githubusercontent.com/eva01/qs-data/master/schemas/price_table.schema.json",
       "files": {
         "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/latest.json",
@@ -327,6 +344,11 @@
         "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/latest.md"
       },
       "snapshots": [
+        {
+          "date": "2016-05-26",
+          "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/2016-05-26.json",
+          "md": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/2016-05-26.md"
+        },
         {
           "date": "2026-03-30",
           "json": "https://raw.githubusercontent.com/eva01/qs-data/master/data/preliminaries-rates/2026-03-30.json",
