@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-05-18T03:43:45.304232Z",
+  "generated_at": "2026-06-01T04:07:23.722177Z",
   "description": "Malaysian construction cost data scraped from quantitysurveyoronline.com.my. Includes all-in rates, labour, materials, plant, preliminaries, and reference tables.",
   "source": "https://quantitysurveyoronline.com.my",
   "currency_default": "MYR",
